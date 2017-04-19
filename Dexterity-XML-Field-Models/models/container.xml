@@ -1,0 +1,16 @@
+<model xmlns:i18n="http://xml.zope.org/namespaces/i18n" xmlns:security="http://namespaces.plone.org/supermodel/security" xmlns:marshal="http://namespaces.plone.org/supermodel/marshal" xmlns:form="http://namespaces.plone.org/supermodel/form" xmlns="http://namespaces.plone.org/supermodel/schema">
+  <schema>
+    <field name="max" type="zope.schema.Int">
+      <description/>
+      <title>max</title>
+    </field>
+    <field name="volume" type="zope.schema.Int">
+      <description/>
+      <title>volume</title>
+    </field>
+    <field name="type" type="zope.schema.Int">
+      <description/>
+      <title>type</title>
+    </field>
+  </schema>
+</model>

@@ -1,0 +1,14 @@
+<model xmlns:i18n="http://xml.zope.org/namespaces/i18n" xmlns:security="http://namespaces.plone.org/supermodel/security" xmlns:marshal="http://namespaces.plone.org/supermodel/marshal" xmlns:form="http://namespaces.plone.org/supermodel/form" xmlns="http://namespaces.plone.org/supermodel/schema">
+  <schema>
+    <field name="max_time_4_garbage_collection" type="zope.schema.Datetime">
+      <description/>
+      <required>False</required>
+      <title>max_time_4_garbage_collection</title>
+    </field>
+    <field name="region" type="zope.schema.TextLine">
+      <description/>
+      <required>False</required>
+      <title>region</title>
+    </field>
+  </schema>
+</model>

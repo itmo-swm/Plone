@@ -1,0 +1,1893 @@
+<?xml version="1.0"?>
+<ZopeData>
+  <record id="8410" aka="AAAAAAAAINo=">
+    <pickle>
+      <global id="8410.1" name="Folder" module="OFS.Folder"/>
+    </pickle>
+    <pickle>
+      <dictionary id="8410.2">
+        <item>
+            <key><string id="8410.3" encoding="">get_region_by_wmo</string></key>
+            <value>
+              <persistent>
+                <tuple>
+                    <string id="8410.4" encoding="base64">AAAAAAAALIc=</string>
+                    <global id="8410.5" name="PythonScript" module="Products.PythonScripts.PythonScript"/>
+                </tuple>
+              </persistent>
+            </value>
+        </item>
+        <item>
+            <key><string id="8410.6" encoding="">title</string></key>
+            <value><string encoding=""></string></value>
+        </item>
+        <item>
+            <key><string id="8410.7" encoding="">get_waste_points</string></key>
+            <value>
+              <persistent>
+                <tuple>
+                    <string id="8410.8" encoding="base64">AAAAAAAAJyA=</string>
+                    <reference id="8410.5"/>
+                </tuple>
+              </persistent>
+            </value>
+        </item>
+        <item>
+            <key><string id="8410.9" encoding="">get_sgb</string></key>
+            <value>
+              <persistent>
+                <tuple>
+                    <string id="8410.10" encoding="base64">AAAAAAAAIQM=</string>
+                    <reference id="8410.5"/>
+                </tuple>
+              </persistent>
+            </value>
+        </item>
+        <item>
+            <key><string id="8410.11" encoding="">get_waste_management_operators</string></key>
+            <value>
+              <persistent>
+                <tuple>
+                    <string id="8410.12" encoding="base64">AAAAAAAALIY=</string>
+                    <reference id="8410.5"/>
+                </tuple>
+              </persistent>
+            </value>
+        </item>
+        <item>
+            <key><string id="8410.13" encoding="">get_waste_dumps</string></key>
+            <value>
+              <persistent>
+                <tuple>
+                    <string id="8410.14" encoding="base64">AAAAAAAAJJE=</string>
+                    <reference id="8410.5"/>
+                </tuple>
+              </persistent>
+            </value>
+        </item>
+        <item>
+            <key><string id="8410.15" encoding="">get_truck</string></key>
+            <value>
+              <persistent>
+                <tuple>
+                    <string id="8410.16" encoding="base64">AAAAAAAAIRI=</string>
+                    <reference id="8410.5"/>
+                </tuple>
+              </persistent>
+            </value>
+        </item>
+        <item>
+            <key><string id="8410.17" encoding="">get_regions_new</string></key>
+            <value>
+              <persistent>
+                <tuple>
+                    <string id="8410.18" encoding="base64">AAAAAAAALCg=</string>
+                    <reference id="8410.5"/>
+                </tuple>
+              </persistent>
+            </value>
+        </item>
+        <item>
+            <key><string id="8410.19" encoding="">get_route</string></key>
+            <value>
+              <persistent>
+                <tuple>
+                    <string id="8410.20" encoding="base64">AAAAAAAAIRE=</string>
+                    <reference id="8410.5"/>
+                </tuple>
+              </persistent>
+            </value>
+        </item>
+        <item>
+            <key><string id="8410.21" encoding="">id</string></key>
+            <value><string id="8410.22" encoding="">swm_scripts</string></value>
+        </item>
+        <item>
+            <key><string id="8410.23" encoding="">_objects</string></key>
+            <value>
+              <tuple id="8410.39">
+                  <dictionary id="8410.24">
+                    <item>
+                        <key><string id="8410.25" encoding="">meta_type</string></key>
+                        <value><string id="8410.26" encoding="">Script (Python)</string></value>
+                    </item>
+                    <item>
+                        <key><reference id="8410.21"/></key>
+                        <value><string id="8410.27" encoding="">get_regions</string></value>
+                    </item>
+                  </dictionary>
+                  <dictionary id="8410.28">
+                    <item>
+                        <key><reference id="8410.25"/></key>
+                        <value><reference id="8410.26"/></value>
+                    </item>
+                    <item>
+                        <key><reference id="8410.21"/></key>
+                        <value><reference id="8410.9"/></value>
+                    </item>
+                  </dictionary>
+                  <dictionary id="8410.29">
+                    <item>
+                        <key><reference id="8410.25"/></key>
+                        <value><reference id="8410.26"/></value>
+                    </item>
+                    <item>
+                        <key><reference id="8410.21"/></key>
+                        <value><reference id="8410.19"/></value>
+                    </item>
+                  </dictionary>
+                  <dictionary id="8410.30">
+                    <item>
+                        <key><reference id="8410.25"/></key>
+                        <value><reference id="8410.26"/></value>
+                    </item>
+                    <item>
+                        <key><reference id="8410.21"/></key>
+                        <value><reference id="8410.15"/></value>
+                    </item>
+                  </dictionary>
+                  <dictionary id="8410.31">
+                    <item>
+                        <key><reference id="8410.25"/></key>
+                        <value><reference id="8410.26"/></value>
+                    </item>
+                    <item>
+                        <key><reference id="8410.21"/></key>
+                        <value><reference id="8410.13"/></value>
+                    </item>
+                  </dictionary>
+                  <dictionary id="8410.32">
+                    <item>
+                        <key><reference id="8410.25"/></key>
+                        <value><reference id="8410.26"/></value>
+                    </item>
+                    <item>
+                        <key><reference id="8410.21"/></key>
+                        <value><reference id="8410.7"/></value>
+                    </item>
+                  </dictionary>
+                  <dictionary id="8410.33">
+                    <item>
+                        <key><string id="8410.34" encoding="">meta_type</string></key>
+                        <value><string id="8410.35" encoding="">Script (Python)</string></value>
+                    </item>
+                    <item>
+                        <key><string id="8410.36" encoding="">id</string></key>
+                        <value><reference id="8410.17"/></value>
+                    </item>
+                  </dictionary>
+                  <dictionary id="8410.37">
+                    <item>
+                        <key><reference id="8410.34"/></key>
+                        <value><reference id="8410.35"/></value>
+                    </item>
+                    <item>
+                        <key><reference id="8410.36"/></key>
+                        <value><reference id="8410.11"/></value>
+                    </item>
+                  </dictionary>
+                  <dictionary id="8410.38">
+                    <item>
+                        <key><reference id="8410.34"/></key>
+                        <value><reference id="8410.35"/></value>
+                    </item>
+                    <item>
+                        <key><reference id="8410.36"/></key>
+                        <value><reference id="8410.3"/></value>
+                    </item>
+                  </dictionary>
+              </tuple>
+            </value>
+        </item>
+        <item>
+            <key><string id="8410.40" encoding="">__ac_local_roles__</string></key>
+            <value>
+              <dictionary id="8410.41">
+                <item>
+                    <key><string encoding="">admin</string></key>
+                    <value>
+                      <list id="8410.42">
+                          <string id="8410.43" encoding="">Owner</string>
+                      </list>
+                    </value>
+                </item>
+              </dictionary>
+            </value>
+        </item>
+        <item>
+            <key><reference id="8410.27"/></key>
+            <value>
+              <persistent>
+                <tuple>
+                    <string id="8410.44" encoding="base64">AAAAAAAAINs=</string>
+                    <reference id="8410.5"/>
+                </tuple>
+              </persistent>
+            </value>
+        </item>
+      </dictionary>
+    </pickle>
+  </record>
+  <record id="11399" aka="AAAAAAAALIc=">
+    <pickle>
+      <global id="11399.1" name="PythonScript" module="Products.PythonScripts.PythonScript"/>
+    </pickle>
+    <pickle>
+      <dictionary id="11399.2">
+        <item>
+            <key><string id="11399.3" encoding="">Python_magic</string></key>
+            <value><string id="11399.4" encoding="base64">A/MNCg==</string></value>
+        </item>
+        <item>
+            <key><string id="11399.5" encoding="">errors</string></key>
+            <value>
+              <tuple/>
+            </value>
+        </item>
+        <item>
+            <key><string id="11399.6" encoding="">warnings</string></key>
+            <value>
+              <tuple/>
+            </value>
+        </item>
+        <item>
+            <key><string id="11399.7" encoding="">Script_magic</string></key>
+            <value><int>3</int></value>
+        </item>
+        <item>
+            <key><string id="11399.8" encoding="">_body</string></key>
+            <value><string id="11399.9" encoding="base64">IyBGdW5jdGlvbiBmb3IgZ2V0dGluZyBvZiByZWdpb25zIGxpc3QKaW1wb3J0IHN0cmluZwoKYnJh
+aW5zPWNvbnRleHQucG9ydGFsX2NhdGFsb2cuc2VhcmNoUmVzdWx0cyh7J3BvcnRhbF90eXBlJyA6
+ICgncmVnaW9uJywpLCAnU3ViamVjdCcgOiB3bW99KQoKcHJpbnQgIlsiICsgJyAnIAoKZm9yIGIg
+aW4gYnJhaW5zOgogcHJpbnQgInsiCiBvPWIuZ2V0T2JqZWN0KCkKIHByaW50ICciaWQiOiIlcyIs
+JyAlIGIuZ2V0VVJMKCkKIHByaW50ICcidGl0bGUiOiIlcyIsJyAlIG8udGl0bGUKIHByaW50ICci
+ZGVzcmlwdGlvbiI6IiVzIiwnICUgby5kZXNjcmlwdGlvbgogcHJpbnQgJyJnZW9tZXRyeSI6IiVz
+JyAlYi5nZXRVUkwoKSArICcvQEBnZW8tanNvbi5qc29uJyciJwogcHJpbnQgIn0sIgoKcmV0dXJu
+IHByaW50ZWRbOi0yXSArICdcbicgKyAiXSIK</string></value>
+        </item>
+        <item>
+            <key><string id="11399.10" encoding="">title</string></key>
+            <value><string id="11399.11" encoding="">Get region by waste management operator</string></value>
+        </item>
+        <item>
+            <key><string id="11399.12" encoding="">func_defaults</string></key>
+            <value>
+              <none/>
+            </value>
+        </item>
+        <item>
+            <key><string id="11399.13" encoding="">id</string></key>
+            <value><string id="11399.14" encoding="">get_region_by_wmo</string></value>
+        </item>
+        <item>
+            <key><string id="11399.15" encoding="">_code</string></key>
+            <value><string id="11399.16" encoding="base64">YwAAAAAAAAAAAQAAAAAAAABzDQAAAGQBAIQAAFoAAGQAAFMoAgAAAE5jAQAAAAsAAAAXAAAAAwAA
+AHMcAQAAdAAAgwAAfQIAZAEAZAAAbAIAfQMAdAMAdAMAdAQAZAIAgwIAZAMAgwIAaQAABGQEAGQF
+AGYBAAM8BGQGAHwAAAM8gwEAfQYAfAIABGQHAGQIABcCSUp4oAB0BwB8BgCDAQBEXZIAfQgAfAIA
+BGQJAAJJSnQDAHwIAGQKAIMCAIMAAH0JAHwCAARkCwB0AwB8CABkDACDAgCDAAAWAklKfAIABGQN
+AHQDAHwJAGQOAIMCABYCSUp8AgAEZA8AdAMAfAkAZBAAgwIAFgJJSnwCAARkEQB0AwB8CABkDACD
+AgCDAAAWZBIAFwJJSnwCAARkEwACSUpxYwBXdAoAfAIAgwAAZAAAZBQAC4UCAIMCAGQVABdkFgAX
+U2QAAFMoFwAAAE5p/////3QOAAAAcG9ydGFsX2NhdGFsb2d0DQAAAHNlYXJjaFJlc3VsdHN0CwAA
+AHBvcnRhbF90eXBldAYAAAByZWdpb250BwAAAFN1YmplY3R0AQAAAFt0AQAAACB0AQAAAHt0CQAA
+AGdldE9iamVjdHMKAAAAImlkIjoiJXMiLHQGAAAAZ2V0VVJMcw0AAAAidGl0bGUiOiIlcyIsdAUA
+AAB0aXRsZXMSAAAAImRlc3JpcHRpb24iOiIlcyIsdAsAAABkZXNjcmlwdGlvbnMOAAAAImdlb21l
+dHJ5IjoiJXNzEQAAAC9AQGdlby1qc29uLmpzb24icwIAAAB9LGkCAAAAcwEAAAAKdAEAAABdKAsA
+AAB0BwAAAF9wcmludF90BgAAAF9wcmludHQGAAAAc3RyaW5ndAkAAABfZ2V0YXR0cl90BwAAAGNv
+bnRleHR0AwAAAHdtb3QGAAAAYnJhaW5zdAkAAABfZ2V0aXRlcl90AQAAAGJ0AQAAAG90CQAAAF9n
+ZXRpdGVtXygLAAAAUhIAAABSDQAAAFIOAAAAUg8AAABSEAAAAFIRAAAAUhMAAABSFAAAAFIVAAAA
+UhYAAABSFwAAACgAAAAAKAAAAABzDwAAAFNjcmlwdCAoUHl0aG9uKXQRAAAAZ2V0X3JlZ2lvbl9i
+eV93bW8BAAAAcxoAAAAJAQwCMwIOAg0ABgEKARIBGgEXARcBHgEOAigBAAAAUhgAAAAoAQAAAFIY
+AAAAKAAAAAAoAAAAAHMPAAAAU2NyaXB0IChQeXRob24pcwgAAAA8bW9kdWxlPgEAAAB0AAAAAA==</string></value>
+        </item>
+        <item>
+            <key><string id="11399.17" encoding="">_owner</string></key>
+            <value>
+              <tuple id="11399.22">
+                  <list id="11399.18">
+                      <string id="11399.19" encoding="">Plone</string>
+                      <string id="11399.20" encoding="">acl_users</string>
+                  </list>
+                  <string id="11399.21" encoding="">Inna</string>
+              </tuple>
+            </value>
+        </item>
+        <item>
+            <key><string id="11399.23" encoding="">_bind_names</string></key>
+            <value>
+              <object id="11399.25">
+                  <klass>
+                    <global id="11399.24" name="NameAssignments" module="Shared.DC.Scripts.Bindings"/>
+                  </klass>
+                  <tuple/>
+                  <state>
+                    <dictionary id="11399.26">
+                      <item>
+                          <key><string id="11399.27" encoding="">_asgns</string></key>
+                          <value>
+                            <dictionary id="11399.28">
+                              <item>
+                                  <key><string id="11399.29" encoding="">name_context</string></key>
+                                  <value><string id="11399.30" encoding="">context</string></value>
+                              </item>
+                              <item>
+                                  <key><string id="11399.31" encoding="">name_subpath</string></key>
+                                  <value><string id="11399.32" encoding="">traverse_subpath</string></value>
+                              </item>
+                              <item>
+                                  <key><string id="11399.33" encoding="">name_m_self</string></key>
+                                  <value><string id="11399.34" encoding="">script</string></value>
+                              </item>
+                              <item>
+                                  <key><string id="11399.35" encoding="">name_container</string></key>
+                                  <value><string id="11399.36" encoding="">container</string></value>
+                              </item>
+                            </dictionary>
+                          </value>
+                      </item>
+                    </dictionary>
+                  </state>
+              </object>
+            </value>
+        </item>
+        <item>
+            <key><string id="11399.37" encoding="">__ac_local_roles__</string></key>
+            <value>
+              <dictionary id="11399.38">
+                <item>
+                    <key><reference id="11399.21"/></key>
+                    <value>
+                      <list id="11399.39">
+                          <string id="11399.40" encoding="">Owner</string>
+                      </list>
+                    </value>
+                </item>
+              </dictionary>
+            </value>
+        </item>
+        <item>
+            <key><string id="11399.41" encoding="">_filepath</string></key>
+            <value><string id="11399.42" encoding="">Script (Python):/Plone/swm_scripts/get_region_by_wmo</string></value>
+        </item>
+        <item>
+            <key><string id="11399.43" encoding="">_params</string></key>
+            <value><string id="11399.44" encoding="">wmo</string></value>
+        </item>
+        <item>
+            <key><string id="11399.45" encoding="">func_code</string></key>
+            <value>
+              <object id="11399.47">
+                  <klass>
+                    <global id="11399.46" name="FuncCode" module="Shared.DC.Scripts.Signature"/>
+                  </klass>
+                  <tuple/>
+                  <state>
+                    <dictionary id="11399.48">
+                      <item>
+                          <key><string id="11399.49" encoding="">co_argcount</string></key>
+                          <value><int>1</int></value>
+                      </item>
+                      <item>
+                          <key><string id="11399.50" encoding="">co_varnames</string></key>
+                          <value>
+                            <tuple>
+                                <string id="11399.51" encoding="">wmo</string>
+                                <string id="11399.52" encoding="">_print_</string>
+                                <string id="11399.53" encoding="">_print</string>
+                                <string id="11399.54" encoding="">string</string>
+                                <string id="11399.55" encoding="">_getattr_</string>
+                                <reference id="11399.30"/>
+                                <string id="11399.56" encoding="">brains</string>
+                                <string id="11399.57" encoding="">_getiter_</string>
+                                <string encoding="">b</string>
+                                <string encoding="">o</string>
+                                <string id="11399.58" encoding="">_getitem_</string>
+                            </tuple>
+                          </value>
+                      </item>
+                    </dictionary>
+                  </state>
+              </object>
+            </value>
+        </item>
+      </dictionary>
+    </pickle>
+  </record>
+  <record id="10016" aka="AAAAAAAAJyA=">
+    <pickle>
+      <global id="10016.1" name="PythonScript" module="Products.PythonScripts.PythonScript"/>
+    </pickle>
+    <pickle>
+      <dictionary id="10016.2">
+        <item>
+            <key><string id="10016.3" encoding="">Python_magic</string></key>
+            <value><string id="10016.4" encoding="base64">A/MNCg==</string></value>
+        </item>
+        <item>
+            <key><string id="10016.5" encoding="">errors</string></key>
+            <value>
+              <tuple/>
+            </value>
+        </item>
+        <item>
+            <key><string id="10016.6" encoding="">warnings</string></key>
+            <value>
+              <tuple/>
+            </value>
+        </item>
+        <item>
+            <key><string id="10016.7" encoding="">Script_magic</string></key>
+            <value><int>3</int></value>
+        </item>
+        <item>
+            <key><string id="10016.8" encoding="">_body</string></key>
+            <value><string id="10016.9" encoding="base64">IyBGdW5jdGlvbiBmb3IgZ2V0dGluZyBvZiB3YXN0ZSBwb2ludHMgbGlzdAppbXBvcnQgc3RyaW5n
+CgpicmFpbnM9Y29udGV4dC5wb3J0YWxfY2F0YWxvZy5zZWFyY2hSZXN1bHRzKHsncG9ydGFsX3R5
+cGUnIDogJ3dhc3RlX3BvaW50JywgJ1N1YmplY3QnIDogcmVnaW9uIH0pCgpwcmludCAiWyIgKyAn
+ICcgCgpmb3IgYiBpbiBicmFpbnM6CiBwcmludCAieyIKICNwcmludCAnImlkIjoiJXMiLCcgJSBi
+LmdldFBhdGgoKQogbz1iLmdldE9iamVjdCgpCiBwcmludCAnImlkIjoiJXMiLCcgJSBvLmlkCiBw
+cmludCAnInRpdGxlIjoiJXMiLCcgJSBvLnRpdGxlCiBwcmludCAnImRlc3JpcHRpb24iOiIlcyIs
+JyAlIG8uZGVzY3JpcHRpb24KIHByaW50ICciZ2VvbWV0cnkiOiIlcycgJWIuZ2V0VVJMKCkgKyAn
+L0BAZ2VvLWpzb24uanNvbicnIiwnCiBwcmludCAifSwiCgoKcmV0dXJuIHByaW50ZWRbOi0yXSAr
+ICdcbicgKyAiXSIK</string></value>
+        </item>
+        <item>
+            <key><string id="10016.10" encoding="">title</string></key>
+            <value><string id="10016.11" encoding="">Function for getting of waste points list</string></value>
+        </item>
+        <item>
+            <key><string id="10016.12" encoding="">_owner</string></key>
+            <value>
+              <tuple id="10016.17">
+                  <list id="10016.13">
+                      <string id="10016.14" encoding="">Plone</string>
+                      <string id="10016.15" encoding="">acl_users</string>
+                  </list>
+                  <string id="10016.16" encoding="">Inna</string>
+              </tuple>
+            </value>
+        </item>
+        <item>
+            <key><string id="10016.18" encoding="">_filepath</string></key>
+            <value><string id="10016.19" encoding="">Script (Python):/Plone/swm_scripts/get_waste_points</string></value>
+        </item>
+        <item>
+            <key><string id="10016.20" encoding="">_code</string></key>
+            <value><string id="10016.21" encoding="base64">YwAAAAAAAAAAAQAAAAAAAABzDQAAAGQBAIQAAFoAAGQAAFMoAgAAAE5jAQAAAAsAAAAXAAAAAwAA
+AHMWAQAAdAAAgwAAfQIAZAEAZAAAbAIAfQMAdAMAdAMAdAQAZAIAgwIAZAMAgwIAaQAABGQEAGQF
+AAM8BGQGAHwAAAM8gwEAfQYAfAIABGQHAGQIABcCSUp4nQB0BwB8BgCDAQBEXY8AfQgAfAIABGQJ
+AAJJSnQDAHwIAGQKAIMCAIMAAH0JAHwCAARkCwB0AwB8CQBkDACDAgAWAklKfAIABGQNAHQDAHwJ
+AGQOAIMCABYCSUp8AgAEZA8AdAMAfAkAZBAAgwIAFgJJSnwCAARkEQB0AwB8CABkEgCDAgCDAAAW
+ZBMAFwJJSnwCAARkFAACSUpxYABXdAoAfAIAgwAAZAAAZBUAC4UCAIMCAGQWABdkFwAXU2QAAFMo
+GAAAAE5p/////3QOAAAAcG9ydGFsX2NhdGFsb2d0DQAAAHNlYXJjaFJlc3VsdHN0CwAAAHBvcnRh
+bF90eXBldAsAAAB3YXN0ZV9wb2ludHQHAAAAU3ViamVjdHQBAAAAW3QBAAAAIHQBAAAAe3QJAAAA
+Z2V0T2JqZWN0cwoAAAAiaWQiOiIlcyIsdAIAAABpZHMNAAAAInRpdGxlIjoiJXMiLHQFAAAAdGl0
+bGVzEgAAACJkZXNyaXB0aW9uIjoiJXMiLHQLAAAAZGVzY3JpcHRpb25zDgAAACJnZW9tZXRyeSI6
+IiVzdAYAAABnZXRVUkxzEgAAAC9AQGdlby1qc29uLmpzb24iLHMCAAAAfSxpAgAAAHMBAAAACnQB
+AAAAXSgLAAAAdAcAAABfcHJpbnRfdAYAAABfcHJpbnR0BgAAAHN0cmluZ3QJAAAAX2dldGF0dHJf
+dAcAAABjb250ZXh0dAYAAAByZWdpb250BgAAAGJyYWluc3QJAAAAX2dldGl0ZXJfdAEAAABidAEA
+AABvdAkAAABfZ2V0aXRlbV8oCwAAAFITAAAAUg4AAABSDwAAAFIQAAAAUhEAAABSEgAAAFIUAAAA
+UhUAAABSFgAAAFIXAAAAUhgAAAAoAAAAACgAAAAAcw8AAABTY3JpcHQgKFB5dGhvbil0EAAAAGdl
+dF93YXN0ZV9wb2ludHMBAAAAcxoAAAAJAQwCMAIOAg0ABgEKAhIBFwEXARcBHgEOAygBAAAAUhkA
+AAAoAQAAAFIZAAAAKAAAAAAoAAAAAHMPAAAAU2NyaXB0IChQeXRob24pcwgAAAA8bW9kdWxlPgEA
+AAB0AAAAAA==</string></value>
+        </item>
+        <item>
+            <key><string id="10016.22" encoding="">func_defaults</string></key>
+            <value>
+              <none/>
+            </value>
+        </item>
+        <item>
+            <key><string id="10016.23" encoding="">_bind_names</string></key>
+            <value>
+              <object id="10016.25">
+                  <klass>
+                    <global id="10016.24" name="NameAssignments" module="Shared.DC.Scripts.Bindings"/>
+                  </klass>
+                  <tuple/>
+                  <state>
+                    <dictionary id="10016.26">
+                      <item>
+                          <key><string id="10016.27" encoding="">_asgns</string></key>
+                          <value>
+                            <dictionary id="10016.28">
+                              <item>
+                                  <key><string encoding="">name_container</string></key>
+                                  <value><string id="10016.29" encoding="">container</string></value>
+                              </item>
+                              <item>
+                                  <key><string encoding="">name_context</string></key>
+                                  <value><string id="10016.30" encoding="">context</string></value>
+                              </item>
+                              <item>
+                                  <key><string encoding="">name_subpath</string></key>
+                                  <value><string id="10016.31" encoding="">traverse_subpath</string></value>
+                              </item>
+                              <item>
+                                  <key><string encoding="">name_m_self</string></key>
+                                  <value><string id="10016.32" encoding="">script</string></value>
+                              </item>
+                            </dictionary>
+                          </value>
+                      </item>
+                    </dictionary>
+                  </state>
+              </object>
+            </value>
+        </item>
+        <item>
+            <key><string id="10016.33" encoding="">__ac_local_roles__</string></key>
+            <value>
+              <dictionary id="10016.34">
+                <item>
+                    <key><reference id="10016.16"/></key>
+                    <value>
+                      <list id="10016.35">
+                          <string id="10016.36" encoding="">Owner</string>
+                      </list>
+                    </value>
+                </item>
+              </dictionary>
+            </value>
+        </item>
+        <item>
+            <key><string id="10016.37" encoding="">id</string></key>
+            <value><string id="10016.38" encoding="">get_waste_points</string></value>
+        </item>
+        <item>
+            <key><string id="10016.39" encoding="">_params</string></key>
+            <value><string id="10016.40" encoding="">region</string></value>
+        </item>
+        <item>
+            <key><string id="10016.41" encoding="">func_code</string></key>
+            <value>
+              <object id="10016.43">
+                  <klass>
+                    <global id="10016.42" name="FuncCode" module="Shared.DC.Scripts.Signature"/>
+                  </klass>
+                  <tuple/>
+                  <state>
+                    <dictionary id="10016.44">
+                      <item>
+                          <key><string id="10016.45" encoding="">co_argcount</string></key>
+                          <value><int>1</int></value>
+                      </item>
+                      <item>
+                          <key><string id="10016.46" encoding="">co_varnames</string></key>
+                          <value>
+                            <tuple>
+                                <string id="10016.47" encoding="">region</string>
+                                <string id="10016.48" encoding="">_print_</string>
+                                <string id="10016.49" encoding="">_print</string>
+                                <string id="10016.50" encoding="">string</string>
+                                <string id="10016.51" encoding="">_getattr_</string>
+                                <string id="10016.52" encoding="">context</string>
+                                <string id="10016.53" encoding="">brains</string>
+                                <string id="10016.54" encoding="">_getiter_</string>
+                                <string encoding="">b</string>
+                                <string encoding="">o</string>
+                                <string id="10016.55" encoding="">_getitem_</string>
+                            </tuple>
+                          </value>
+                      </item>
+                    </dictionary>
+                  </state>
+              </object>
+            </value>
+        </item>
+      </dictionary>
+    </pickle>
+  </record>
+  <record id="8451" aka="AAAAAAAAIQM=">
+    <pickle>
+      <global id="8451.1" name="PythonScript" module="Products.PythonScripts.PythonScript"/>
+    </pickle>
+    <pickle>
+      <dictionary id="8451.2">
+        <item>
+            <key><string id="8451.3" encoding="">Python_magic</string></key>
+            <value><string id="8451.4" encoding="base64">A/MNCg==</string></value>
+        </item>
+        <item>
+            <key><string id="8451.5" encoding="">errors</string></key>
+            <value>
+              <tuple/>
+            </value>
+        </item>
+        <item>
+            <key><string id="8451.6" encoding="">warnings</string></key>
+            <value>
+              <tuple/>
+            </value>
+        </item>
+        <item>
+            <key><string id="8451.7" encoding="">Script_magic</string></key>
+            <value><int>3</int></value>
+        </item>
+        <item>
+            <key><string id="8451.8" encoding="">_body</string></key>
+            <value><string id="8451.9" encoding="base64">IyBGdW5jdGlvbiBmb3IgZ2V0dGluZyBvZiBzZ2JzIGxpc3QKaW1wb3J0IHN0cmluZwoKYnJhaW5z
+PWNvbnRleHQucG9ydGFsX2NhdGFsb2cuc2VhcmNoUmVzdWx0cyh7J3BvcnRhbF90eXBlJyA6ICdz
+Z2InLCAnU3ViamVjdCcgOiByZWdpb24gfSkKCnByaW50ICJbIiArICcgJyAKCmZvciBiIGluIGJy
+YWluczoKIHByaW50ICJ7Igogbz1iLmdldE9iamVjdCgpCiBwcmludCAnImlkIjoiJXMiLCcgJSBi
+LmdldFVSTCgpCiBwcmludCAnInRpdGxlIjoiJXMiLCcgJSBvLnRpdGxlCiBwcmludCAnImRlc3Jp
+cHRpb24iOiIlcyIsJyAlIG8uZGVzY3JpcHRpb24KIHByaW50ICciZ2VvbWV0cnkiOiIlcycgJWIu
+Z2V0VVJMKCkgKyAnL0BAZ2VvLWpzb24uanNvbicnIiwnCiBwcmludCAnImNsZWFuaW5nX3RpbWUi
+OiIlcyIsJyAlIG8uY2xlYW5pbmdfdGltZQogcHJpbnQgJyJyZmlkIjoiJXMiLCcgJSBvLnJmaWQK
+IHByaW50ICcic3RhdGUiOiIlcyIsJyAlIG8uc3RhdGUKIHByaW50ICcic2Vuc29yIjoiJXMiLCcg
+JSBvLnNlbnNvcgogcHJpbnQgJyJtYXgiOiIlcyIsJyAlIG8ubWF4CiBwcmludCAnInZvbHVtZSI6
+IiVzIiwnICUgby52b2x1bWUKIHByaW50ICcidHlwZSI6IiVzIicgJSBvLnR5cGUKIHByaW50ICJ9
+LCIKCnJldHVybiBwcmludGVkWzotMl0gKyAnXG4nICsgIl0iCg==</string></value>
+        </item>
+        <item>
+            <key><string id="8451.10" encoding="">title</string></key>
+            <value><string id="8451.11" encoding="">Function for getting of sgbs list</string></value>
+        </item>
+        <item>
+            <key><string id="8451.12" encoding="">_owner</string></key>
+            <value>
+              <tuple id="8451.17">
+                  <list id="8451.13">
+                      <string id="8451.14" encoding="">Plone</string>
+                      <string id="8451.15" encoding="">acl_users</string>
+                  </list>
+                  <string id="8451.16" encoding="">Inna</string>
+              </tuple>
+            </value>
+        </item>
+        <item>
+            <key><string id="8451.18" encoding="">_filepath</string></key>
+            <value><string id="8451.19" encoding="">Script (Python):/Plone/swm_scripts/get_sgb</string></value>
+        </item>
+        <item>
+            <key><string id="8451.20" encoding="">_code</string></key>
+            <value><string id="8451.21" encoding="base64">YwAAAAAAAAAAAQAAAAAAAABzDQAAAGQBAIQAAFoAAGQAAFMoAgAAAE5jAQAAAAsAAAAsAAAAAwAA
+AHO6AQAAdAAAgwAAfQIAZAEAZAAAbAIAfQMAdAMAdAMAdAQAZAIAgwIAZAMAgwIAaQAABGQEAGQF
+AAM8BGQGAHwAAAM8gwEAfQYAfAIABGQHAGQIABcCSUp4QQF0BwB8BgCDAQBEXTMBfQgAfAIABGQJ
+AAJJSnQDAHwIAGQKAIMCAIMAAH0JAHwCAARkCwB0AwB8CABkDACDAgCDAAAWAklKfAIABGQNAHQD
+AHwJAGQOAIMCABYCSUp8AgAEZA8AdAMAfAkAZBAAgwIAFgJJSnwCAARkEQB0AwB8CABkDACDAgCD
+AAAWZBIAFwJJSnwCAARkEwB0AwB8CQBkFACDAgAWAklKfAIABGQVAHQDAHwJAGQWAIMCABYCSUp8
+AgAEZBcAdAMAfAkAZBgAgwIAFgJJSnwCAARkGQB0AwB8CQBkGgCDAgAWAklKfAIABGQbAHQDAHwJ
+AGQcAIMCABYCSUp8AgAEZB0AdAMAfAkAZB4AgwIAFgJJSnwCAARkHwB0AwB8CQBkIACDAgAWAklK
+fAIABGQhAAJJSnFgAFd0CgB8AgCDAABkAABkIgALhQIAgwIAZCMAF2QkABdTZAAAUyglAAAATmn/
+////dA4AAABwb3J0YWxfY2F0YWxvZ3QNAAAAc2VhcmNoUmVzdWx0c3QLAAAAcG9ydGFsX3R5cGV0
+AwAAAHNnYnQHAAAAU3ViamVjdHQBAAAAW3QBAAAAIHQBAAAAe3QJAAAAZ2V0T2JqZWN0cwoAAAAi
+aWQiOiIlcyIsdAYAAABnZXRVUkxzDQAAACJ0aXRsZSI6IiVzIix0BQAAAHRpdGxlcxIAAAAiZGVz
+cmlwdGlvbiI6IiVzIix0CwAAAGRlc2NyaXB0aW9ucw4AAAAiZ2VvbWV0cnkiOiIlc3MSAAAAL0BA
+Z2VvLWpzb24uanNvbiIscxUAAAAiY2xlYW5pbmdfdGltZSI6IiVzIix0DQAAAGNsZWFuaW5nX3Rp
+bWVzDAAAACJyZmlkIjoiJXMiLHQEAAAAcmZpZHMNAAAAInN0YXRlIjoiJXMiLHQFAAAAc3RhdGVz
+DgAAACJzZW5zb3IiOiIlcyIsdAYAAABzZW5zb3JzCwAAACJtYXgiOiIlcyIsdAMAAABtYXhzDgAA
+ACJ2b2x1bWUiOiIlcyIsdAYAAAB2b2x1bWVzCwAAACJ0eXBlIjoiJXMidAQAAAB0eXBlcwIAAAB9
+LGkCAAAAcwEAAAAKdAEAAABdKAsAAAB0BwAAAF9wcmludF90BgAAAF9wcmludHQGAAAAc3RyaW5n
+dAkAAABfZ2V0YXR0cl90BwAAAGNvbnRleHR0BgAAAHJlZ2lvbnQGAAAAYnJhaW5zdAkAAABfZ2V0
+aXRlcl90AQAAAGJ0AQAAAG90CQAAAF9nZXRpdGVtXygLAAAAUhkAAABSFAAAAFIVAAAAUhYAAABS
+FwAAAFIYAAAAUhoAAABSGwAAAFIcAAAAUh0AAABSHgAAACgAAAAAKAAAAABzDwAAAFNjcmlwdCAo
+UHl0aG9uKXQHAAAAZ2V0X3NnYgEAAABzKAAAAAkBDAIwAg4CDQAGAQoBEgEaARcBFwEeARcBFwEX
+ARcBFwEXARcBDgIoAQAAAFIfAAAAKAEAAABSHwAAACgAAAAAKAAAAABzDwAAAFNjcmlwdCAoUHl0
+aG9uKXMIAAAAPG1vZHVsZT4BAAAAdAAAAAA=</string></value>
+        </item>
+        <item>
+            <key><string id="8451.22" encoding="">func_defaults</string></key>
+            <value>
+              <none/>
+            </value>
+        </item>
+        <item>
+            <key><string id="8451.23" encoding="">_bind_names</string></key>
+            <value>
+              <object id="8451.25">
+                  <klass>
+                    <global id="8451.24" name="NameAssignments" module="Shared.DC.Scripts.Bindings"/>
+                  </klass>
+                  <tuple/>
+                  <state>
+                    <dictionary id="8451.26">
+                      <item>
+                          <key><string id="8451.27" encoding="">_asgns</string></key>
+                          <value>
+                            <dictionary id="8451.28">
+                              <item>
+                                  <key><string encoding="">name_container</string></key>
+                                  <value><string id="8451.29" encoding="">container</string></value>
+                              </item>
+                              <item>
+                                  <key><string encoding="">name_context</string></key>
+                                  <value><string id="8451.30" encoding="">context</string></value>
+                              </item>
+                              <item>
+                                  <key><string encoding="">name_subpath</string></key>
+                                  <value><string id="8451.31" encoding="">traverse_subpath</string></value>
+                              </item>
+                              <item>
+                                  <key><string encoding="">name_m_self</string></key>
+                                  <value><string id="8451.32" encoding="">script</string></value>
+                              </item>
+                            </dictionary>
+                          </value>
+                      </item>
+                    </dictionary>
+                  </state>
+              </object>
+            </value>
+        </item>
+        <item>
+            <key><string id="8451.33" encoding="">__ac_local_roles__</string></key>
+            <value>
+              <dictionary id="8451.34">
+                <item>
+                    <key><reference id="8451.16"/></key>
+                    <value>
+                      <list id="8451.35">
+                          <string id="8451.36" encoding="">Owner</string>
+                      </list>
+                    </value>
+                </item>
+              </dictionary>
+            </value>
+        </item>
+        <item>
+            <key><string id="8451.37" encoding="">id</string></key>
+            <value><string id="8451.38" encoding="">get_sgb</string></value>
+        </item>
+        <item>
+            <key><string id="8451.39" encoding="">_params</string></key>
+            <value><string id="8451.40" encoding="">region</string></value>
+        </item>
+        <item>
+            <key><string id="8451.41" encoding="">func_code</string></key>
+            <value>
+              <object id="8451.43">
+                  <klass>
+                    <global id="8451.42" name="FuncCode" module="Shared.DC.Scripts.Signature"/>
+                  </klass>
+                  <tuple/>
+                  <state>
+                    <dictionary id="8451.44">
+                      <item>
+                          <key><string id="8451.45" encoding="">co_argcount</string></key>
+                          <value><int>1</int></value>
+                      </item>
+                      <item>
+                          <key><string id="8451.46" encoding="">co_varnames</string></key>
+                          <value>
+                            <tuple>
+                                <string id="8451.47" encoding="">region</string>
+                                <string id="8451.48" encoding="">_print_</string>
+                                <string id="8451.49" encoding="">_print</string>
+                                <string id="8451.50" encoding="">string</string>
+                                <string id="8451.51" encoding="">_getattr_</string>
+                                <string id="8451.52" encoding="">context</string>
+                                <string id="8451.53" encoding="">brains</string>
+                                <string id="8451.54" encoding="">_getiter_</string>
+                                <string encoding="">b</string>
+                                <string encoding="">o</string>
+                                <string id="8451.55" encoding="">_getitem_</string>
+                            </tuple>
+                          </value>
+                      </item>
+                    </dictionary>
+                  </state>
+              </object>
+            </value>
+        </item>
+      </dictionary>
+    </pickle>
+  </record>
+  <record id="11398" aka="AAAAAAAALIY=">
+    <pickle>
+      <global id="11398.1" name="PythonScript" module="Products.PythonScripts.PythonScript"/>
+    </pickle>
+    <pickle>
+      <dictionary id="11398.2">
+        <item>
+            <key><string id="11398.3" encoding="">Python_magic</string></key>
+            <value><string id="11398.4" encoding="base64">A/MNCg==</string></value>
+        </item>
+        <item>
+            <key><string id="11398.5" encoding="">errors</string></key>
+            <value>
+              <tuple/>
+            </value>
+        </item>
+        <item>
+            <key><string id="11398.6" encoding="">warnings</string></key>
+            <value>
+              <tuple/>
+            </value>
+        </item>
+        <item>
+            <key><string id="11398.7" encoding="">Script_magic</string></key>
+            <value><int>3</int></value>
+        </item>
+        <item>
+            <key><string id="11398.8" encoding="">_body</string></key>
+            <value><string id="11398.9" encoding="base64">IyBGdW5jdGlvbiBmb3IgZ2V0dGluZyBvZiAgd2FzdGUgbWFuYWdlbWVudCBvcGVyYXRvcnMgbGlz
+dAppbXBvcnQgc3RyaW5nCgpicmFpbnM9Y29udGV4dC5wb3J0YWxfY2F0YWxvZy5zZWFyY2hSZXN1
+bHRzKHsncG9ydGFsX3R5cGUnIDogKCd3YXN0ZV9tYW5hZ2VtZW50X29wZXJhdG9yJywpfSkKCnBy
+aW50ICJbIiArICcgJyAKCmZvciBiIGluIGJyYWluczoKIHByaW50ICJ7Igogbz1iLmdldE9iamVj
+dCgpCiBwcmludCAnImlkIjoiJXMiLCcgJSBiLmdldFVSTCgpCiBwcmludCAnInRpdGxlIjoiJXMi
+LCcgJSBvLnRpdGxlCiBwcmludCAnImRlc3JpcHRpb24iOiIlcyInICUgby5kZXNjcmlwdGlvbgog
+cHJpbnQgIn0sIgoKcmV0dXJuIHByaW50ZWRbOi0yXSArICdcbicgKyAiXSIK</string></value>
+        </item>
+        <item>
+            <key><string id="11398.10" encoding="">title</string></key>
+            <value><string id="11398.11" encoding="">Get waste management operators</string></value>
+        </item>
+        <item>
+            <key><string id="11398.12" encoding="">func_defaults</string></key>
+            <value>
+              <none/>
+            </value>
+        </item>
+        <item>
+            <key><string id="11398.13" encoding="">id</string></key>
+            <value><string id="11398.14" encoding="">get_waste_management_operators</string></value>
+        </item>
+        <item>
+            <key><string id="11398.15" encoding="">_code</string></key>
+            <value><string id="11398.16" encoding="base64">YwAAAAAAAAAAAQAAAAAAAABzDQAAAGQBAIQAAFoAAGQAAFMoAgAAAE5jAAAAAAoAAAAUAAAAAwAA
+AHP1AAAAdAAAgwAAfQEAZAEAZAAAbAIAfQIAdAMAdAMAdAQAZAIAgwIAZAMAgwIAaQAABGQEAGQF
+AGYBAAM8gwEAfQUAfAEABGQGAGQHABcCSUp4ggB0BgB8BQCDAQBEXXQAfQcAfAEABGQIAAJJSnQD
+AHwHAGQJAIMCAIMAAH0IAHwBAARkCgB0AwB8BwBkCwCDAgCDAAAWAklKfAEABGQMAHQDAHwIAGQN
+AIMCABYCSUp8AQAEZA4AdAMAfAgAZA8AgwIAFgJJSnwBAARkEAACSUpxWgBXdAkAfAEAgwAAZAAA
+ZBEAC4UCAIMCAGQSABdkEwAXU2QAAFMoFAAAAE5p/////3QOAAAAcG9ydGFsX2NhdGFsb2d0DQAA
+AHNlYXJjaFJlc3VsdHN0CwAAAHBvcnRhbF90eXBldBkAAAB3YXN0ZV9tYW5hZ2VtZW50X29wZXJh
+dG9ydAEAAABbdAEAAAAgdAEAAAB7dAkAAABnZXRPYmplY3RzCgAAACJpZCI6IiVzIix0BgAAAGdl
+dFVSTHMNAAAAInRpdGxlIjoiJXMiLHQFAAAAdGl0bGVzEQAAACJkZXNyaXB0aW9uIjoiJXMidAsA
+AABkZXNjcmlwdGlvbnMCAAAAfSxpAgAAAHMBAAAACnQBAAAAXSgKAAAAdAcAAABfcHJpbnRfdAYA
+AABfcHJpbnR0BgAAAHN0cmluZ3QJAAAAX2dldGF0dHJfdAcAAABjb250ZXh0dAYAAABicmFpbnN0
+CQAAAF9nZXRpdGVyX3QBAAAAYnQBAAAAb3QJAAAAX2dldGl0ZW1fKAoAAABSDAAAAFINAAAAUg4A
+AABSDwAAAFIQAAAAUhEAAABSEgAAAFITAAAAUhQAAABSFQAAACgAAAAAKAAAAABzDwAAAFNjcmlw
+dCAoUHl0aG9uKXQeAAAAZ2V0X3dhc3RlX21hbmFnZW1lbnRfb3BlcmF0b3JzAQAAAHMYAAAACQEM
+AioCDgINAAYBCgESARoBFwEXAQ4CKAEAAABSFgAAACgBAAAAUhYAAAAoAAAAACgAAAAAcw8AAABT
+Y3JpcHQgKFB5dGhvbilzCAAAADxtb2R1bGU+AQAAAHQAAAAA</string></value>
+        </item>
+        <item>
+            <key><string id="11398.17" encoding="">_owner</string></key>
+            <value>
+              <tuple id="11398.22">
+                  <list id="11398.18">
+                      <string id="11398.19" encoding="">Plone</string>
+                      <string id="11398.20" encoding="">acl_users</string>
+                  </list>
+                  <string id="11398.21" encoding="">Inna</string>
+              </tuple>
+            </value>
+        </item>
+        <item>
+            <key><string id="11398.23" encoding="">_bind_names</string></key>
+            <value>
+              <object id="11398.25">
+                  <klass>
+                    <global id="11398.24" name="NameAssignments" module="Shared.DC.Scripts.Bindings"/>
+                  </klass>
+                  <tuple/>
+                  <state>
+                    <dictionary id="11398.26">
+                      <item>
+                          <key><string id="11398.27" encoding="">_asgns</string></key>
+                          <value>
+                            <dictionary id="11398.28">
+                              <item>
+                                  <key><string id="11398.29" encoding="">name_context</string></key>
+                                  <value><string id="11398.30" encoding="">context</string></value>
+                              </item>
+                              <item>
+                                  <key><string id="11398.31" encoding="">name_subpath</string></key>
+                                  <value><string id="11398.32" encoding="">traverse_subpath</string></value>
+                              </item>
+                              <item>
+                                  <key><string id="11398.33" encoding="">name_m_self</string></key>
+                                  <value><string id="11398.34" encoding="">script</string></value>
+                              </item>
+                              <item>
+                                  <key><string id="11398.35" encoding="">name_container</string></key>
+                                  <value><string id="11398.36" encoding="">container</string></value>
+                              </item>
+                            </dictionary>
+                          </value>
+                      </item>
+                    </dictionary>
+                  </state>
+              </object>
+            </value>
+        </item>
+        <item>
+            <key><string id="11398.37" encoding="">__ac_local_roles__</string></key>
+            <value>
+              <dictionary id="11398.38">
+                <item>
+                    <key><reference id="11398.21"/></key>
+                    <value>
+                      <list id="11398.39">
+                          <string id="11398.40" encoding="">Owner</string>
+                      </list>
+                    </value>
+                </item>
+              </dictionary>
+            </value>
+        </item>
+        <item>
+            <key><string id="11398.41" encoding="">_filepath</string></key>
+            <value><string id="11398.42" encoding="">Script (Python):/Plone/swm_scripts/get_waste_management_operators</string></value>
+        </item>
+        <item>
+            <key><string id="11398.43" encoding="">_params</string></key>
+            <value><string encoding=""></string></value>
+        </item>
+        <item>
+            <key><string id="11398.44" encoding="">func_code</string></key>
+            <value>
+              <object id="11398.46">
+                  <klass>
+                    <global id="11398.45" name="FuncCode" module="Shared.DC.Scripts.Signature"/>
+                  </klass>
+                  <tuple/>
+                  <state>
+                    <dictionary id="11398.47">
+                      <item>
+                          <key><string id="11398.48" encoding="">co_argcount</string></key>
+                          <value><int>0</int></value>
+                      </item>
+                      <item>
+                          <key><string id="11398.49" encoding="">co_varnames</string></key>
+                          <value>
+                            <tuple id="11398.57">
+                                <string id="11398.50" encoding="">_print_</string>
+                                <string id="11398.51" encoding="">_print</string>
+                                <string id="11398.52" encoding="">string</string>
+                                <string id="11398.53" encoding="">_getattr_</string>
+                                <reference id="11398.30"/>
+                                <string id="11398.54" encoding="">brains</string>
+                                <string id="11398.55" encoding="">_getiter_</string>
+                                <string encoding="">b</string>
+                                <string encoding="">o</string>
+                                <string id="11398.56" encoding="">_getitem_</string>
+                            </tuple>
+                          </value>
+                      </item>
+                    </dictionary>
+                  </state>
+              </object>
+            </value>
+        </item>
+      </dictionary>
+    </pickle>
+  </record>
+  <record id="9361" aka="AAAAAAAAJJE=">
+    <pickle>
+      <global id="9361.1" name="PythonScript" module="Products.PythonScripts.PythonScript"/>
+    </pickle>
+    <pickle>
+      <dictionary id="9361.2">
+        <item>
+            <key><string id="9361.3" encoding="">Python_magic</string></key>
+            <value><string id="9361.4" encoding="base64">A/MNCg==</string></value>
+        </item>
+        <item>
+            <key><string id="9361.5" encoding="">errors</string></key>
+            <value>
+              <tuple/>
+            </value>
+        </item>
+        <item>
+            <key><string id="9361.6" encoding="">warnings</string></key>
+            <value>
+              <tuple/>
+            </value>
+        </item>
+        <item>
+            <key><string id="9361.7" encoding="">Script_magic</string></key>
+            <value><int>3</int></value>
+        </item>
+        <item>
+            <key><string id="9361.8" encoding="">_body</string></key>
+            <value><string id="9361.9" encoding="base64">IyBGdW5jdGlvbiBmb3IgZ2V0dGluZyBvZiB3YXN0ZSBkdW1wcyBsaXN0CmltcG9ydCBzdHJpbmcK
+CmJyYWlucz1jb250ZXh0LnBvcnRhbF9jYXRhbG9nLnNlYXJjaFJlc3VsdHMoeydwb3J0YWxfdHlw
+ZScgOiAnd2FzdGVfZHVtcCcsICdTdWJqZWN0JyA6IHJlZ2lvbn0pCgpwcmludCAiWyIgKyAnICcg
+Cgpmb3IgYiBpbiBicmFpbnM6CiBwcmludCAieyIKIG89Yi5nZXRPYmplY3QoKQogcHJpbnQgJyJp
+ZCI6IiVzIiwnICUgYi5nZXRVUkwoKQogcHJpbnQgJyJ0aXRsZSI6IiVzIiwnICUgby50aXRsZQog
+cHJpbnQgJyJkZXNyaXB0aW9uIjoiJXMiLCcgJSBvLmRlc2NyaXB0aW9uCiBwcmludCAnImdlb21l
+dHJ5IjoiJXMnICViLmdldFVSTCgpICsgJy9AQGdlby1qc29uLmpzb24nJyInCgogcHJpbnQgIn0s
+IgoKcmV0dXJuIHByaW50ZWRbOi0yXSArICdcbicgKyAiXSIK</string></value>
+        </item>
+        <item>
+            <key><string id="9361.10" encoding="">title</string></key>
+            <value><string id="9361.11" encoding="">Function for getting of waste dumps list</string></value>
+        </item>
+        <item>
+            <key><string id="9361.12" encoding="">_owner</string></key>
+            <value>
+              <tuple id="9361.17">
+                  <list id="9361.13">
+                      <string id="9361.14" encoding="">Plone</string>
+                      <string id="9361.15" encoding="">acl_users</string>
+                  </list>
+                  <string id="9361.16" encoding="">Inna</string>
+              </tuple>
+            </value>
+        </item>
+        <item>
+            <key><string id="9361.18" encoding="">_filepath</string></key>
+            <value><string id="9361.19" encoding="">Script (Python):/Plone/swm_scripts/get_waste_dumps</string></value>
+        </item>
+        <item>
+            <key><string id="9361.20" encoding="">_code</string></key>
+            <value><string id="9361.21" encoding="base64">YwAAAAAAAAAAAQAAAAAAAABzDQAAAGQBAIQAAFoAAGQAAFMoAgAAAE5jAQAAAAsAAAAXAAAAAwAA
+AHMZAQAAdAAAgwAAfQIAZAEAZAAAbAIAfQMAdAMAdAMAdAQAZAIAgwIAZAMAgwIAaQAABGQEAGQF
+AAM8BGQGAHwAAAM8gwEAfQYAfAIABGQHAGQIABcCSUp4oAB0BwB8BgCDAQBEXZIAfQgAfAIABGQJ
+AAJJSnQDAHwIAGQKAIMCAIMAAH0JAHwCAARkCwB0AwB8CABkDACDAgCDAAAWAklKfAIABGQNAHQD
+AHwJAGQOAIMCABYCSUp8AgAEZA8AdAMAfAkAZBAAgwIAFgJJSnwCAARkEQB0AwB8CABkDACDAgCD
+AAAWZBIAFwJJSnwCAARkEwACSUpxYABXdAoAfAIAgwAAZAAAZBQAC4UCAIMCAGQVABdkFgAXU2QA
+AFMoFwAAAE5p/////3QOAAAAcG9ydGFsX2NhdGFsb2d0DQAAAHNlYXJjaFJlc3VsdHN0CwAAAHBv
+cnRhbF90eXBldAoAAAB3YXN0ZV9kdW1wdAcAAABTdWJqZWN0dAEAAABbdAEAAAAgdAEAAAB7dAkA
+AABnZXRPYmplY3RzCgAAACJpZCI6IiVzIix0BgAAAGdldFVSTHMNAAAAInRpdGxlIjoiJXMiLHQF
+AAAAdGl0bGVzEgAAACJkZXNyaXB0aW9uIjoiJXMiLHQLAAAAZGVzY3JpcHRpb25zDgAAACJnZW9t
+ZXRyeSI6IiVzcxEAAAAvQEBnZW8tanNvbi5qc29uInMCAAAAfSxpAgAAAHMBAAAACnQBAAAAXSgL
+AAAAdAcAAABfcHJpbnRfdAYAAABfcHJpbnR0BgAAAHN0cmluZ3QJAAAAX2dldGF0dHJfdAcAAABj
+b250ZXh0dAYAAAByZWdpb250BgAAAGJyYWluc3QJAAAAX2dldGl0ZXJfdAEAAABidAEAAABvdAkA
+AABfZ2V0aXRlbV8oCwAAAFISAAAAUg0AAABSDgAAAFIPAAAAUhAAAABSEQAAAFITAAAAUhQAAABS
+FQAAAFIWAAAAUhcAAAAoAAAAACgAAAAAcw8AAABTY3JpcHQgKFB5dGhvbil0DwAAAGdldF93YXN0
+ZV9kdW1wcwEAAABzGgAAAAkBDAIwAg4CDQAGAQoBEgEaARcBFwEeAg4CKAEAAABSGAAAACgBAAAA
+UhgAAAAoAAAAACgAAAAAcw8AAABTY3JpcHQgKFB5dGhvbilzCAAAADxtb2R1bGU+AQAAAHQAAAAA</string></value>
+        </item>
+        <item>
+            <key><string id="9361.22" encoding="">func_defaults</string></key>
+            <value>
+              <none/>
+            </value>
+        </item>
+        <item>
+            <key><string id="9361.23" encoding="">_bind_names</string></key>
+            <value>
+              <object id="9361.25">
+                  <klass>
+                    <global id="9361.24" name="NameAssignments" module="Shared.DC.Scripts.Bindings"/>
+                  </klass>
+                  <tuple/>
+                  <state>
+                    <dictionary id="9361.26">
+                      <item>
+                          <key><string id="9361.27" encoding="">_asgns</string></key>
+                          <value>
+                            <dictionary id="9361.28">
+                              <item>
+                                  <key><string encoding="">name_container</string></key>
+                                  <value><string id="9361.29" encoding="">container</string></value>
+                              </item>
+                              <item>
+                                  <key><string encoding="">name_context</string></key>
+                                  <value><string id="9361.30" encoding="">context</string></value>
+                              </item>
+                              <item>
+                                  <key><string encoding="">name_subpath</string></key>
+                                  <value><string id="9361.31" encoding="">traverse_subpath</string></value>
+                              </item>
+                              <item>
+                                  <key><string encoding="">name_m_self</string></key>
+                                  <value><string id="9361.32" encoding="">script</string></value>
+                              </item>
+                            </dictionary>
+                          </value>
+                      </item>
+                    </dictionary>
+                  </state>
+              </object>
+            </value>
+        </item>
+        <item>
+            <key><string id="9361.33" encoding="">__ac_local_roles__</string></key>
+            <value>
+              <dictionary id="9361.34">
+                <item>
+                    <key><reference id="9361.16"/></key>
+                    <value>
+                      <list id="9361.35">
+                          <string id="9361.36" encoding="">Owner</string>
+                      </list>
+                    </value>
+                </item>
+              </dictionary>
+            </value>
+        </item>
+        <item>
+            <key><string id="9361.37" encoding="">id</string></key>
+            <value><string id="9361.38" encoding="">get_waste_dumps</string></value>
+        </item>
+        <item>
+            <key><string id="9361.39" encoding="">_params</string></key>
+            <value><string id="9361.40" encoding="">region</string></value>
+        </item>
+        <item>
+            <key><string id="9361.41" encoding="">func_code</string></key>
+            <value>
+              <object id="9361.43">
+                  <klass>
+                    <global id="9361.42" name="FuncCode" module="Shared.DC.Scripts.Signature"/>
+                  </klass>
+                  <tuple/>
+                  <state>
+                    <dictionary id="9361.44">
+                      <item>
+                          <key><string id="9361.45" encoding="">co_argcount</string></key>
+                          <value><int>1</int></value>
+                      </item>
+                      <item>
+                          <key><string id="9361.46" encoding="">co_varnames</string></key>
+                          <value>
+                            <tuple>
+                                <string id="9361.47" encoding="">region</string>
+                                <string id="9361.48" encoding="">_print_</string>
+                                <string id="9361.49" encoding="">_print</string>
+                                <string id="9361.50" encoding="">string</string>
+                                <string id="9361.51" encoding="">_getattr_</string>
+                                <string id="9361.52" encoding="">context</string>
+                                <string id="9361.53" encoding="">brains</string>
+                                <string id="9361.54" encoding="">_getiter_</string>
+                                <string encoding="">b</string>
+                                <string encoding="">o</string>
+                                <string id="9361.55" encoding="">_getitem_</string>
+                            </tuple>
+                          </value>
+                      </item>
+                    </dictionary>
+                  </state>
+              </object>
+            </value>
+        </item>
+      </dictionary>
+    </pickle>
+  </record>
+  <record id="8466" aka="AAAAAAAAIRI=">
+    <pickle>
+      <global id="8466.1" name="PythonScript" module="Products.PythonScripts.PythonScript"/>
+    </pickle>
+    <pickle>
+      <dictionary id="8466.2">
+        <item>
+            <key><string id="8466.3" encoding="">Python_magic</string></key>
+            <value><string id="8466.4" encoding="base64">A/MNCg==</string></value>
+        </item>
+        <item>
+            <key><string id="8466.5" encoding="">errors</string></key>
+            <value>
+              <tuple/>
+            </value>
+        </item>
+        <item>
+            <key><string id="8466.6" encoding="">warnings</string></key>
+            <value>
+              <tuple/>
+            </value>
+        </item>
+        <item>
+            <key><string id="8466.7" encoding="">Script_magic</string></key>
+            <value><int>3</int></value>
+        </item>
+        <item>
+            <key><string id="8466.8" encoding="">_body</string></key>
+            <value><string id="8466.9" encoding="base64">IyBGdW5jdGlvbiBmb3IgZ2V0dGluZyBvZiB0cnVja3MgbGlzdAppbXBvcnQgc3RyaW5nCgpicmFp
+bnM9Y29udGV4dC5wb3J0YWxfY2F0YWxvZy5zZWFyY2hSZXN1bHRzKHsncG9ydGFsX3R5cGUnIDog
+J3RyYWNrJywgJ1N1YmplY3QnIDogcmVnaW9uIH0pCgpwcmludCAiWyIgKyAnICcgCgpmb3IgYiBp
+biBicmFpbnM6CiBwcmludCAieyIKIG89Yi5nZXRPYmplY3QoKQogcHJpbnQgJyJpZCI6IiVzIiwn
+ICUgYi5nZXRVUkwoKQogcHJpbnQgJyJ0aXRsZSI6IiVzIiwnICUgby50aXRsZQogcHJpbnQgJyJk
+ZXNyaXB0aW9uIjoiJXMiLCcgJSBvLmRlc2NyaXB0aW9uCiBwcmludCAnImdlb21ldHJ5IjoiJXMn
+ICViLmdldFVSTCgpICsgJy9AQGdlby1qc29uLmpzb24nJyIsJwoKIHByaW50ICcicHJpb3JpdHki
+OiIlcyIsJyAlIG8ucHJpb3JpdHkKIHByaW50ICcibWF4IjoiJXMiLCcgJSBvLm1heAogcHJpbnQg
+JyJ2b2x1bWUiOiIlcyIsJyAlIG8udm9sdW1lCiBwcmludCAnInR5cGUiOiIlcyInICUgby50eXBl
+CgogcHJpbnQgIn0sIgoKCnJldHVybiBwcmludGVkWzotMl0gKyAnXG4nICsgIl0iCg==</string></value>
+        </item>
+        <item>
+            <key><string id="8466.10" encoding="">title</string></key>
+            <value><string id="8466.11" encoding="">Function for getting of trucks list</string></value>
+        </item>
+        <item>
+            <key><string id="8466.12" encoding="">_owner</string></key>
+            <value>
+              <tuple id="8466.17">
+                  <list id="8466.13">
+                      <string id="8466.14" encoding="">Plone</string>
+                      <string id="8466.15" encoding="">acl_users</string>
+                  </list>
+                  <string id="8466.16" encoding="">Inna</string>
+              </tuple>
+            </value>
+        </item>
+        <item>
+            <key><string id="8466.18" encoding="">_filepath</string></key>
+            <value><string id="8466.19" encoding="">Script (Python):/Plone/swm_scripts/get_truck</string></value>
+        </item>
+        <item>
+            <key><string id="8466.20" encoding="">_code</string></key>
+            <value><string id="8466.21" encoding="base64">YwAAAAAAAAAAAQAAAAAAAABzDQAAAGQBAIQAAFoAAGQAAFMoAgAAAE5jAQAAAAsAAAAjAAAAAwAA
+AHN1AQAAdAAAgwAAfQIAZAEAZAAAbAIAfQMAdAMAdAMAdAQAZAIAgwIAZAMAgwIAaQAABGQEAGQF
+AAM8BGQGAHwAAAM8gwEAfQYAfAIABGQHAGQIABcCSUp4/AB0BwB8BgCDAQBEXe4AfQgAfAIABGQJ
+AAJJSnQDAHwIAGQKAIMCAIMAAH0JAHwCAARkCwB0AwB8CABkDACDAgCDAAAWAklKfAIABGQNAHQD
+AHwJAGQOAIMCABYCSUp8AgAEZA8AdAMAfAkAZBAAgwIAFgJJSnwCAARkEQB0AwB8CABkDACDAgCD
+AAAWZBIAFwJJSnwCAARkEwB0AwB8CQBkFACDAgAWAklKfAIABGQVAHQDAHwJAGQWAIMCABYCSUp8
+AgAEZBcAdAMAfAkAZBgAgwIAFgJJSnwCAARkGQB0AwB8CQBkGgCDAgAWAklKfAIABGQbAAJJSnFg
+AFd0CgB8AgCDAABkAABkHAALhQIAgwIAZB0AF2QeABdTZAAAUygfAAAATmn/////dA4AAABwb3J0
+YWxfY2F0YWxvZ3QNAAAAc2VhcmNoUmVzdWx0c3QLAAAAcG9ydGFsX3R5cGV0BQAAAHRyYWNrdAcA
+AABTdWJqZWN0dAEAAABbdAEAAAAgdAEAAAB7dAkAAABnZXRPYmplY3RzCgAAACJpZCI6IiVzIix0
+BgAAAGdldFVSTHMNAAAAInRpdGxlIjoiJXMiLHQFAAAAdGl0bGVzEgAAACJkZXNyaXB0aW9uIjoi
+JXMiLHQLAAAAZGVzY3JpcHRpb25zDgAAACJnZW9tZXRyeSI6IiVzcxIAAAAvQEBnZW8tanNvbi5q
+c29uIixzEAAAACJwcmlvcml0eSI6IiVzIix0CAAAAHByaW9yaXR5cwsAAAAibWF4IjoiJXMiLHQD
+AAAAbWF4cw4AAAAidm9sdW1lIjoiJXMiLHQGAAAAdm9sdW1lcwsAAAAidHlwZSI6IiVzInQEAAAA
+dHlwZXMCAAAAfSxpAgAAAHMBAAAACnQBAAAAXSgLAAAAdAcAAABfcHJpbnRfdAYAAABfcHJpbnR0
+BgAAAHN0cmluZ3QJAAAAX2dldGF0dHJfdAcAAABjb250ZXh0dAYAAAByZWdpb250BgAAAGJyYWlu
+c3QJAAAAX2dldGl0ZXJfdAEAAABidAEAAABvdAkAAABfZ2V0aXRlbV8oCwAAAFIWAAAAUhEAAABS
+EgAAAFITAAAAUhQAAABSFQAAAFIXAAAAUhgAAABSGQAAAFIaAAAAUhsAAAAoAAAAACgAAAAAcw8A
+AABTY3JpcHQgKFB5dGhvbil0CQAAAGdldF90cnVjawEAAABzIgAAAAkBDAIwAg4CDQAGAQoBEgEa
+ARcBFwEeAhcBFwEXARcCDgMoAQAAAFIcAAAAKAEAAABSHAAAACgAAAAAKAAAAABzDwAAAFNjcmlw
+dCAoUHl0aG9uKXMIAAAAPG1vZHVsZT4BAAAAdAAAAAA=</string></value>
+        </item>
+        <item>
+            <key><string id="8466.22" encoding="">func_defaults</string></key>
+            <value>
+              <none/>
+            </value>
+        </item>
+        <item>
+            <key><string id="8466.23" encoding="">_bind_names</string></key>
+            <value>
+              <object id="8466.25">
+                  <klass>
+                    <global id="8466.24" name="NameAssignments" module="Shared.DC.Scripts.Bindings"/>
+                  </klass>
+                  <tuple/>
+                  <state>
+                    <dictionary id="8466.26">
+                      <item>
+                          <key><string id="8466.27" encoding="">_asgns</string></key>
+                          <value>
+                            <dictionary id="8466.28">
+                              <item>
+                                  <key><string encoding="">name_container</string></key>
+                                  <value><string id="8466.29" encoding="">container</string></value>
+                              </item>
+                              <item>
+                                  <key><string encoding="">name_context</string></key>
+                                  <value><string id="8466.30" encoding="">context</string></value>
+                              </item>
+                              <item>
+                                  <key><string encoding="">name_subpath</string></key>
+                                  <value><string id="8466.31" encoding="">traverse_subpath</string></value>
+                              </item>
+                              <item>
+                                  <key><string encoding="">name_m_self</string></key>
+                                  <value><string id="8466.32" encoding="">script</string></value>
+                              </item>
+                            </dictionary>
+                          </value>
+                      </item>
+                    </dictionary>
+                  </state>
+              </object>
+            </value>
+        </item>
+        <item>
+            <key><string id="8466.33" encoding="">__ac_local_roles__</string></key>
+            <value>
+              <dictionary id="8466.34">
+                <item>
+                    <key><reference id="8466.16"/></key>
+                    <value>
+                      <list id="8466.35">
+                          <string id="8466.36" encoding="">Owner</string>
+                      </list>
+                    </value>
+                </item>
+              </dictionary>
+            </value>
+        </item>
+        <item>
+            <key><string id="8466.37" encoding="">id</string></key>
+            <value><string id="8466.38" encoding="">get_truck</string></value>
+        </item>
+        <item>
+            <key><string id="8466.39" encoding="">_params</string></key>
+            <value><string id="8466.40" encoding="">region</string></value>
+        </item>
+        <item>
+            <key><string id="8466.41" encoding="">func_code</string></key>
+            <value>
+              <object id="8466.43">
+                  <klass>
+                    <global id="8466.42" name="FuncCode" module="Shared.DC.Scripts.Signature"/>
+                  </klass>
+                  <tuple/>
+                  <state>
+                    <dictionary id="8466.44">
+                      <item>
+                          <key><string id="8466.45" encoding="">co_argcount</string></key>
+                          <value><int>1</int></value>
+                      </item>
+                      <item>
+                          <key><string id="8466.46" encoding="">co_varnames</string></key>
+                          <value>
+                            <tuple>
+                                <string id="8466.47" encoding="">region</string>
+                                <string id="8466.48" encoding="">_print_</string>
+                                <string id="8466.49" encoding="">_print</string>
+                                <string id="8466.50" encoding="">string</string>
+                                <string id="8466.51" encoding="">_getattr_</string>
+                                <string id="8466.52" encoding="">context</string>
+                                <string id="8466.53" encoding="">brains</string>
+                                <string id="8466.54" encoding="">_getiter_</string>
+                                <string encoding="">b</string>
+                                <string encoding="">o</string>
+                                <string id="8466.55" encoding="">_getitem_</string>
+                            </tuple>
+                          </value>
+                      </item>
+                    </dictionary>
+                  </state>
+              </object>
+            </value>
+        </item>
+      </dictionary>
+    </pickle>
+  </record>
+  <record id="11304" aka="AAAAAAAALCg=">
+    <pickle>
+      <global id="11304.1" name="PythonScript" module="Products.PythonScripts.PythonScript"/>
+    </pickle>
+    <pickle>
+      <dictionary id="11304.2">
+        <item>
+            <key><string id="11304.3" encoding="">Python_magic</string></key>
+            <value><string id="11304.4" encoding="base64">A/MNCg==</string></value>
+        </item>
+        <item>
+            <key><string id="11304.5" encoding="">errors</string></key>
+            <value>
+              <tuple/>
+            </value>
+        </item>
+        <item>
+            <key><string id="11304.6" encoding="">title</string></key>
+            <value><string id="11304.7" encoding="">Function for getting of regions list</string></value>
+        </item>
+        <item>
+            <key><string id="11304.8" encoding="">Script_magic</string></key>
+            <value><int>3</int></value>
+        </item>
+        <item>
+            <key><string id="11304.9" encoding="">_body</string></key>
+            <value><string id="11304.10" encoding="base64">IyBGdW5jdGlvbiBmb3IgZ2V0dGluZyBvZiByZWdpb25zIGxpc3QKCmJyYWlucz1jb250ZXh0LnBv
+cnRhbF9jYXRhbG9nLnNlYXJjaFJlc3VsdHMoeydwb3J0YWxfdHlwZScgOiAoJ3JlZ2lvbicsKSB9
+KQoKcHJpbnQgIlsiCgpmb3IgbyBpbiBjb250ZXh0Lm9iamVjdFZhbHVlcygpOgogaWYgby5wb3J0
+YWxfdHlwZSA9PSAncmVnaW9uJzoKICB1cmwgPSBvLmFic29sdXRlX3VybCgpCiAgcHJpbnQgInsi
+CiAgcHJpbnQgCiAgcHJpbnQgJyJpZCI6IiVzIiwnICUgdXJsCiAgcHJpbnQgJyJ0aXRsZSI6IiVz
+IiwnICUgby50aXRsZQogIHByaW50ICciZGVzcmlwdGlvbiI6IiVzIiwnICUgby5kZXNjcmlwdGlv
+bgogIHByaW50ICciZ2VvbWV0cnkiOiIlcycgJSB1cmwgKyAnL0BAZ2VvLWpzb24uanNvbicnIicK
+ICBwcmludCAifSwiCgpyZXR1cm4gcHJpbnRlZFs6LTJdICsgJ1xuJyArICJdIgo=</string></value>
+        </item>
+        <item>
+            <key><string id="11304.11" encoding="">warnings</string></key>
+            <value>
+              <tuple/>
+            </value>
+        </item>
+        <item>
+            <key><string id="11304.12" encoding="">func_defaults</string></key>
+            <value>
+              <none/>
+            </value>
+        </item>
+        <item>
+            <key><string id="11304.13" encoding="">_filepath</string></key>
+            <value><string id="11304.14" encoding="">Script (Python):/Plone/swm_scripts/get_regions_new</string></value>
+        </item>
+        <item>
+            <key><string id="11304.15" encoding="">_code</string></key>
+            <value><string id="11304.16" encoding="base64">YwAAAAAAAAAAAQAAAAAAAABzDQAAAGQBAIQAAFoAAGQAAFMoAgAAAE5jAAAAAAkAAAAdAAAAAwAA
+AHMTAQAAdAAAgwAAfQEAdAIAdAIAdAMAZAEAgwIAZAIAgwIAaQAABGQDAGQEAGYBAAM8gwEAfQQA
+fAEABGQFAAJJSniwAHQFAHQCAHQDAGQGAIMCAIMAAIMBAERdlgB9BgB0AgB8BgBkAwCDAgBkBABr
+AgBy7AB0AgB8BgBkBwCDAgCDAAB9BwB8AQAEZAgAAklKfAEASnwBAARkCQB8BwAWAklKfAEABGQK
+AHQCAHwGAGQLAIMCABYCSUp8AQAEZAwAdAIAfAYAZA0AgwIAFgJJSnwBAARkDgB8BwAWZA8AFwJJ
+SnwBAARkEAACSUpuAABxVgBXdAgAfAEAgwAAZAAAZBEAC4UCAIMCAGQSABdkEwAXU2QAAFMoFAAA
+AE50DgAAAHBvcnRhbF9jYXRhbG9ndA0AAABzZWFyY2hSZXN1bHRzdAsAAABwb3J0YWxfdHlwZXQG
+AAAAcmVnaW9udAEAAABbdAwAAABvYmplY3RWYWx1ZXN0DAAAAGFic29sdXRlX3VybHQBAAAAe3MK
+AAAAImlkIjoiJXMiLHMNAAAAInRpdGxlIjoiJXMiLHQFAAAAdGl0bGVzEgAAACJkZXNyaXB0aW9u
+IjoiJXMiLHQLAAAAZGVzY3JpcHRpb25zDgAAACJnZW9tZXRyeSI6IiVzcxEAAAAvQEBnZW8tanNv
+bi5qc29uInMCAAAAfSxpAgAAAHMBAAAACnQBAAAAXSgJAAAAdAcAAABfcHJpbnRfdAYAAABfcHJp
+bnR0CQAAAF9nZXRhdHRyX3QHAAAAY29udGV4dHQGAAAAYnJhaW5zdAkAAABfZ2V0aXRlcl90AQAA
+AG90AwAAAHVybHQJAAAAX2dldGl0ZW1fKAkAAABSCwAAAFIMAAAAUg0AAABSDgAAAFIPAAAAUhAA
+AABSEQAAAFISAAAAUhMAAAAoAAAAACgAAAAAcw8AAABTY3JpcHQgKFB5dGhvbil0DwAAAGdldF9y
+ZWdpb25zX25ldwEAAABzHAAAAAkCKgIKAhkABgEVARIBCgEEAQ4BFwEXARIBEQIoAQAAAFIUAAAA
+KAEAAABSFAAAACgAAAAAKAAAAABzDwAAAFNjcmlwdCAoUHl0aG9uKXMIAAAAPG1vZHVsZT4BAAAA
+dAAAAAA=</string></value>
+        </item>
+        <item>
+            <key><string id="11304.17" encoding="">_owner</string></key>
+            <value>
+              <tuple id="11304.21">
+                  <list id="11304.18">
+                      <string id="11304.19" encoding="">Plone</string>
+                      <string id="11304.20" encoding="">acl_users</string>
+                  </list>
+                  <string encoding="">sadov</string>
+              </tuple>
+            </value>
+        </item>
+        <item>
+            <key><string id="11304.22" encoding="">_bind_names</string></key>
+            <value>
+              <object id="11304.24">
+                  <klass>
+                    <global id="11304.23" name="NameAssignments" module="Shared.DC.Scripts.Bindings"/>
+                  </klass>
+                  <tuple/>
+                  <state>
+                    <dictionary id="11304.25">
+                      <item>
+                          <key><string id="11304.26" encoding="">_asgns</string></key>
+                          <value>
+                            <dictionary id="11304.27">
+                              <item>
+                                  <key><string encoding="">name_container</string></key>
+                                  <value><string id="11304.28" encoding="">container</string></value>
+                              </item>
+                              <item>
+                                  <key><string encoding="">name_context</string></key>
+                                  <value><string id="11304.29" encoding="">context</string></value>
+                              </item>
+                              <item>
+                                  <key><string encoding="">name_subpath</string></key>
+                                  <value><string id="11304.30" encoding="">traverse_subpath</string></value>
+                              </item>
+                              <item>
+                                  <key><string encoding="">name_m_self</string></key>
+                                  <value><string id="11304.31" encoding="">script</string></value>
+                              </item>
+                            </dictionary>
+                          </value>
+                      </item>
+                    </dictionary>
+                  </state>
+              </object>
+            </value>
+        </item>
+        <item>
+            <key><string id="11304.32" encoding="">__ac_local_roles__</string></key>
+            <value>
+              <dictionary id="11304.33">
+                <item>
+                    <key><string encoding="">admin</string></key>
+                    <value>
+                      <list id="11304.34">
+                          <string id="11304.35" encoding="">Owner</string>
+                      </list>
+                    </value>
+                </item>
+              </dictionary>
+            </value>
+        </item>
+        <item>
+            <key><string id="11304.36" encoding="">id</string></key>
+            <value><string id="11304.37" encoding="">get_regions_new</string></value>
+        </item>
+        <item>
+            <key><string id="11304.38" encoding="">_params</string></key>
+            <value><string encoding=""></string></value>
+        </item>
+        <item>
+            <key><string id="11304.39" encoding="">func_code</string></key>
+            <value>
+              <object id="11304.41">
+                  <klass>
+                    <global id="11304.40" name="FuncCode" module="Shared.DC.Scripts.Signature"/>
+                  </klass>
+                  <tuple/>
+                  <state>
+                    <dictionary id="11304.42">
+                      <item>
+                          <key><string id="11304.43" encoding="">co_argcount</string></key>
+                          <value><int>0</int></value>
+                      </item>
+                      <item>
+                          <key><string id="11304.44" encoding="">co_varnames</string></key>
+                          <value>
+                            <tuple id="11304.53">
+                                <string id="11304.45" encoding="">_print_</string>
+                                <string id="11304.46" encoding="">_print</string>
+                                <string id="11304.47" encoding="">_getattr_</string>
+                                <string id="11304.48" encoding="">context</string>
+                                <string id="11304.49" encoding="">brains</string>
+                                <string id="11304.50" encoding="">_getiter_</string>
+                                <string encoding="">o</string>
+                                <string id="11304.51" encoding="">url</string>
+                                <string id="11304.52" encoding="">_getitem_</string>
+                            </tuple>
+                          </value>
+                      </item>
+                    </dictionary>
+                  </state>
+              </object>
+            </value>
+        </item>
+      </dictionary>
+    </pickle>
+  </record>
+  <record id="8465" aka="AAAAAAAAIRE=">
+    <pickle>
+      <global id="8465.1" name="PythonScript" module="Products.PythonScripts.PythonScript"/>
+    </pickle>
+    <pickle>
+      <dictionary id="8465.2">
+        <item>
+            <key><string id="8465.3" encoding="">Python_magic</string></key>
+            <value><string id="8465.4" encoding="base64">A/MNCg==</string></value>
+        </item>
+        <item>
+            <key><string id="8465.5" encoding="">errors</string></key>
+            <value>
+              <tuple/>
+            </value>
+        </item>
+        <item>
+            <key><string id="8465.6" encoding="">warnings</string></key>
+            <value>
+              <tuple/>
+            </value>
+        </item>
+        <item>
+            <key><string id="8465.7" encoding="">Script_magic</string></key>
+            <value><int>3</int></value>
+        </item>
+        <item>
+            <key><string id="8465.8" encoding="">_body</string></key>
+            <value><string id="8465.9" encoding="base64">IyBGdW5jdGlvbiBmb3IgZ2V0dGluZyBvZiByb3V0ZSBsaXN0CmltcG9ydCBzdHJpbmcKCmJyYWlu
+cz1jb250ZXh0LnBvcnRhbF9jYXRhbG9nLnNlYXJjaFJlc3VsdHMoeydwb3J0YWxfdHlwZScgOiAn
+cm91dGUnLCAnU3ViamVjdCcgOiByZWdpb259KQoKcHJpbnQgIlsiICsgJyAnIAoKZm9yIGIgaW4g
+YnJhaW5zOgogcHJpbnQgInsiCiBvPWIuZ2V0T2JqZWN0KCkKIHByaW50ICciaWQiOiIlcyIsJyAl
+IGIuZ2V0VVJMKCkKIHByaW50ICcidGl0bGUiOiIlcyIsJyAlIG8udGl0bGUKIHByaW50ICciZGVz
+cmlwdGlvbiI6IiVzIiwnICUgby5kZXNjcmlwdGlvbgogcHJpbnQgJyJnZW9tZXRyeSI6IiVzJyAl
+Yi5nZXRVUkwoKSArICcvQEBnZW8tanNvbi5qc29uJyciLCcKIHByaW50ICcibWF4X3RpbWVfNF9n
+YXJiYWdlX2NvbGxlY3Rpb24iOiIlcyIsJyAlIG8ubWF4X3RpbWVfNF9nYXJiYWdlX2NvbGxlY3Rp
+b24KIHByaW50ICcicmVnaW9uIjoiJXMiJyAlIG8ucmVnaW9uCgogcHJpbnQgIn0sIgoKcmV0dXJu
+IHByaW50ZWRbOi0yXSArICdcbicgKyAiXSIK</string></value>
+        </item>
+        <item>
+            <key><string id="8465.10" encoding="">title</string></key>
+            <value><string id="8465.11" encoding="">Function for getting of routes list</string></value>
+        </item>
+        <item>
+            <key><string id="8465.12" encoding="">_owner</string></key>
+            <value>
+              <tuple id="8465.17">
+                  <list id="8465.13">
+                      <string id="8465.14" encoding="">Plone</string>
+                      <string id="8465.15" encoding="">acl_users</string>
+                  </list>
+                  <string id="8465.16" encoding="">Inna</string>
+              </tuple>
+            </value>
+        </item>
+        <item>
+            <key><string id="8465.18" encoding="">_filepath</string></key>
+            <value><string id="8465.19" encoding="">Script (Python):/Plone/swm_scripts/get_route</string></value>
+        </item>
+        <item>
+            <key><string id="8465.20" encoding="">_code</string></key>
+            <value><string id="8465.21" encoding="base64">YwAAAAAAAAAAAQAAAAAAAABzDQAAAGQBAIQAAFoAAGQAAFMoAgAAAE5jAQAAAAsAAAAdAAAAAwAA
+AHNHAQAAdAAAgwAAfQIAZAEAZAAAbAIAfQMAdAMAdAMAdAQAZAIAgwIAZAMAgwIAaQAABGQEAGQF
+AAM8BGQGAHwAAAM8gwEAfQYAfAIABGQHAGQIABcCSUp4zgB0BwB8BgCDAQBEXcAAfQgAfAIABGQJ
+AAJJSnQDAHwIAGQKAIMCAIMAAH0JAHwCAARkCwB0AwB8CABkDACDAgCDAAAWAklKfAIABGQNAHQD
+AHwJAGQOAIMCABYCSUp8AgAEZA8AdAMAfAkAZBAAgwIAFgJJSnwCAARkEQB0AwB8CABkDACDAgCD
+AAAWZBIAFwJJSnwCAARkEwB0AwB8CQBkFACDAgAWAklKfAIABGQVAHQDAHwJAGQWAIMCABYCSUp8
+AgAEZBcAAklKcWAAV3QKAHwCAIMAAGQAAGQYAAuFAgCDAgBkGQAXZBoAF1NkAABTKBsAAABOaf//
+//90DgAAAHBvcnRhbF9jYXRhbG9ndA0AAABzZWFyY2hSZXN1bHRzdAsAAABwb3J0YWxfdHlwZXQF
+AAAAcm91dGV0BwAAAFN1YmplY3R0AQAAAFt0AQAAACB0AQAAAHt0CQAAAGdldE9iamVjdHMKAAAA
+ImlkIjoiJXMiLHQGAAAAZ2V0VVJMcw0AAAAidGl0bGUiOiIlcyIsdAUAAAB0aXRsZXMSAAAAImRl
+c3JpcHRpb24iOiIlcyIsdAsAAABkZXNjcmlwdGlvbnMOAAAAImdlb21ldHJ5IjoiJXNzEgAAAC9A
+QGdlby1qc29uLmpzb24iLHMlAAAAIm1heF90aW1lXzRfZ2FyYmFnZV9jb2xsZWN0aW9uIjoiJXMi
+LHQdAAAAbWF4X3RpbWVfNF9nYXJiYWdlX2NvbGxlY3Rpb25zDQAAACJyZWdpb24iOiIlcyJ0BgAA
+AHJlZ2lvbnMCAAAAfSxpAgAAAHMBAAAACnQBAAAAXSgLAAAAdAcAAABfcHJpbnRfdAYAAABfcHJp
+bnR0BgAAAHN0cmluZ3QJAAAAX2dldGF0dHJfdAcAAABjb250ZXh0Ug0AAAB0BgAAAGJyYWluc3QJ
+AAAAX2dldGl0ZXJfdAEAAABidAEAAABvdAkAAABfZ2V0aXRlbV8oCwAAAFINAAAAUg8AAABSEAAA
+AFIRAAAAUhIAAABSEwAAAFIUAAAAUhUAAABSFgAAAFIXAAAAUhgAAAAoAAAAACgAAAAAcw8AAABT
+Y3JpcHQgKFB5dGhvbil0CQAAAGdldF9yb3V0ZQEAAABzHgAAAAkBDAIwAg4CDQAGAQoBEgEaARcB
+FwEeARcBFwIOAigBAAAAUhkAAAAoAQAAAFIZAAAAKAAAAAAoAAAAAHMPAAAAU2NyaXB0IChQeXRo
+b24pcwgAAAA8bW9kdWxlPgEAAAB0AAAAAA==</string></value>
+        </item>
+        <item>
+            <key><string id="8465.22" encoding="">func_defaults</string></key>
+            <value>
+              <none/>
+            </value>
+        </item>
+        <item>
+            <key><string id="8465.23" encoding="">_bind_names</string></key>
+            <value>
+              <object id="8465.25">
+                  <klass>
+                    <global id="8465.24" name="NameAssignments" module="Shared.DC.Scripts.Bindings"/>
+                  </klass>
+                  <tuple/>
+                  <state>
+                    <dictionary id="8465.26">
+                      <item>
+                          <key><string id="8465.27" encoding="">_asgns</string></key>
+                          <value>
+                            <dictionary id="8465.28">
+                              <item>
+                                  <key><string encoding="">name_container</string></key>
+                                  <value><string id="8465.29" encoding="">container</string></value>
+                              </item>
+                              <item>
+                                  <key><string encoding="">name_context</string></key>
+                                  <value><string id="8465.30" encoding="">context</string></value>
+                              </item>
+                              <item>
+                                  <key><string encoding="">name_subpath</string></key>
+                                  <value><string id="8465.31" encoding="">traverse_subpath</string></value>
+                              </item>
+                              <item>
+                                  <key><string encoding="">name_m_self</string></key>
+                                  <value><string id="8465.32" encoding="">script</string></value>
+                              </item>
+                            </dictionary>
+                          </value>
+                      </item>
+                    </dictionary>
+                  </state>
+              </object>
+            </value>
+        </item>
+        <item>
+            <key><string id="8465.33" encoding="">__ac_local_roles__</string></key>
+            <value>
+              <dictionary id="8465.34">
+                <item>
+                    <key><reference id="8465.16"/></key>
+                    <value>
+                      <list id="8465.35">
+                          <string id="8465.36" encoding="">Owner</string>
+                      </list>
+                    </value>
+                </item>
+              </dictionary>
+            </value>
+        </item>
+        <item>
+            <key><string id="8465.37" encoding="">id</string></key>
+            <value><string id="8465.38" encoding="">get_route</string></value>
+        </item>
+        <item>
+            <key><string id="8465.39" encoding="">_params</string></key>
+            <value><string id="8465.40" encoding="">region</string></value>
+        </item>
+        <item>
+            <key><string id="8465.41" encoding="">func_code</string></key>
+            <value>
+              <object id="8465.43">
+                  <klass>
+                    <global id="8465.42" name="FuncCode" module="Shared.DC.Scripts.Signature"/>
+                  </klass>
+                  <tuple/>
+                  <state>
+                    <dictionary id="8465.44">
+                      <item>
+                          <key><string id="8465.45" encoding="">co_argcount</string></key>
+                          <value><int>1</int></value>
+                      </item>
+                      <item>
+                          <key><string id="8465.46" encoding="">co_varnames</string></key>
+                          <value>
+                            <tuple>
+                                <string id="8465.47" encoding="">region</string>
+                                <string id="8465.48" encoding="">_print_</string>
+                                <string id="8465.49" encoding="">_print</string>
+                                <string id="8465.50" encoding="">string</string>
+                                <string id="8465.51" encoding="">_getattr_</string>
+                                <string id="8465.52" encoding="">context</string>
+                                <string id="8465.53" encoding="">brains</string>
+                                <string id="8465.54" encoding="">_getiter_</string>
+                                <string encoding="">b</string>
+                                <string encoding="">o</string>
+                                <string id="8465.55" encoding="">_getitem_</string>
+                            </tuple>
+                          </value>
+                      </item>
+                    </dictionary>
+                  </state>
+              </object>
+            </value>
+        </item>
+      </dictionary>
+    </pickle>
+  </record>
+  <record id="8411" aka="AAAAAAAAINs=">
+    <pickle>
+      <global id="8411.1" name="PythonScript" module="Products.PythonScripts.PythonScript"/>
+    </pickle>
+    <pickle>
+      <dictionary id="8411.2">
+        <item>
+            <key><string id="8411.3" encoding="">Python_magic</string></key>
+            <value><string id="8411.4" encoding="base64">A/MNCg==</string></value>
+        </item>
+        <item>
+            <key><string id="8411.5" encoding="">errors</string></key>
+            <value>
+              <tuple/>
+            </value>
+        </item>
+        <item>
+            <key><string id="8411.6" encoding="">warnings</string></key>
+            <value>
+              <tuple/>
+            </value>
+        </item>
+        <item>
+            <key><string id="8411.7" encoding="">Script_magic</string></key>
+            <value><int>3</int></value>
+        </item>
+        <item>
+            <key><string id="8411.8" encoding="">_body</string></key>
+            <value><string id="8411.9" encoding="base64">IyBGdW5jdGlvbiBmb3IgZ2V0dGluZyBvZiByZWdpb25zIGxpc3QKaW1wb3J0IHN0cmluZwoKYnJh
+aW5zPWNvbnRleHQucG9ydGFsX2NhdGFsb2cuc2VhcmNoUmVzdWx0cyh7J3BvcnRhbF90eXBlJyA6
+ICgncmVnaW9uJywpIH0pCgpwcmludCAiWyIgKyAnICcgCgpmb3IgYiBpbiBicmFpbnM6CiBwcmlu
+dCAieyIKIG89Yi5nZXRPYmplY3QoKQogcHJpbnQgJyJpZCI6IiVzIiwnICUgYi5nZXRVUkwoKQog
+cHJpbnQgJyJ0aXRsZSI6IiVzIiwnICUgby50aXRsZQogcHJpbnQgJyJkZXNyaXB0aW9uIjoiJXMi
+LCcgJSBvLmRlc2NyaXB0aW9uCiBwcmludCAnImdlb21ldHJ5IjoiJXMnICViLmdldFVSTCgpICsg
+Jy9AQGdlby1qc29uLmpzb24nJyInCiBwcmludCAifSwiCgpyZXR1cm4gcHJpbnRlZFs6LTJdICsg
+J1xuJyArICJdIgo=</string></value>
+        </item>
+        <item>
+            <key><string id="8411.10" encoding="">title</string></key>
+            <value><string id="8411.11" encoding="">Function for getting of regions list</string></value>
+        </item>
+        <item>
+            <key><string id="8411.12" encoding="">_filepath</string></key>
+            <value><string id="8411.13" encoding="">Script (Python):/Plone/swm_scripts/get_regions</string></value>
+        </item>
+        <item>
+            <key><string id="8411.14" encoding="">_code</string></key>
+            <value><string id="8411.15" encoding="base64">YwAAAAAAAAAAAQAAAAAAAABzDQAAAGQBAIQAAFoAAGQAAFMoAgAAAE5jAAAAAAoAAAAXAAAAAwAA
+AHMTAQAAdAAAgwAAfQEAZAEAZAAAbAIAfQIAdAMAdAMAdAQAZAIAgwIAZAMAgwIAaQAABGQEAGQF
+AGYBAAM8gwEAfQUAfAEABGQGAGQHABcCSUp4oAB0BgB8BQCDAQBEXZIAfQcAfAEABGQIAAJJSnQD
+AHwHAGQJAIMCAIMAAH0IAHwBAARkCgB0AwB8BwBkCwCDAgCDAAAWAklKfAEABGQMAHQDAHwIAGQN
+AIMCABYCSUp8AQAEZA4AdAMAfAgAZA8AgwIAFgJJSnwBAARkEAB0AwB8BwBkCwCDAgCDAAAWZBEA
+FwJJSnwBAARkEgACSUpxWgBXdAkAfAEAgwAAZAAAZBMAC4UCAIMCAGQUABdkFQAXU2QAAFMoFgAA
+AE5p/////3QOAAAAcG9ydGFsX2NhdGFsb2d0DQAAAHNlYXJjaFJlc3VsdHN0CwAAAHBvcnRhbF90
+eXBldAYAAAByZWdpb250AQAAAFt0AQAAACB0AQAAAHt0CQAAAGdldE9iamVjdHMKAAAAImlkIjoi
+JXMiLHQGAAAAZ2V0VVJMcw0AAAAidGl0bGUiOiIlcyIsdAUAAAB0aXRsZXMSAAAAImRlc3JpcHRp
+b24iOiIlcyIsdAsAAABkZXNjcmlwdGlvbnMOAAAAImdlb21ldHJ5IjoiJXNzEQAAAC9AQGdlby1q
+c29uLmpzb24icwIAAAB9LGkCAAAAcwEAAAAKdAEAAABdKAoAAAB0BwAAAF9wcmludF90BgAAAF9w
+cmludHQGAAAAc3RyaW5ndAkAAABfZ2V0YXR0cl90BwAAAGNvbnRleHR0BgAAAGJyYWluc3QJAAAA
+X2dldGl0ZXJfdAEAAABidAEAAABvdAkAAABfZ2V0aXRlbV8oCgAAAFIMAAAAUg0AAABSDgAAAFIP
+AAAAUhAAAABSEQAAAFISAAAAUhMAAABSFAAAAFIVAAAAKAAAAAAoAAAAAHMPAAAAU2NyaXB0IChQ
+eXRob24pdAsAAABnZXRfcmVnaW9ucwEAAABzGgAAAAkBDAIqAg4CDQAGAQoBEgEaARcBFwEeAQ4C
+KAEAAABSFgAAACgBAAAAUhYAAAAoAAAAACgAAAAAcw8AAABTY3JpcHQgKFB5dGhvbilzCAAAADxt
+b2R1bGU+AQAAAHQAAAAA</string></value>
+        </item>
+        <item>
+            <key><string id="8411.16" encoding="">func_defaults</string></key>
+            <value>
+              <none/>
+            </value>
+        </item>
+        <item>
+            <key><string id="8411.17" encoding="">_bind_names</string></key>
+            <value>
+              <object id="8411.19">
+                  <klass>
+                    <global id="8411.18" name="NameAssignments" module="Shared.DC.Scripts.Bindings"/>
+                  </klass>
+                  <tuple/>
+                  <state>
+                    <dictionary id="8411.20">
+                      <item>
+                          <key><string id="8411.21" encoding="">_asgns</string></key>
+                          <value>
+                            <dictionary id="8411.22">
+                              <item>
+                                  <key><string encoding="">name_container</string></key>
+                                  <value><string id="8411.23" encoding="">container</string></value>
+                              </item>
+                              <item>
+                                  <key><string encoding="">name_context</string></key>
+                                  <value><string id="8411.24" encoding="">context</string></value>
+                              </item>
+                              <item>
+                                  <key><string encoding="">name_subpath</string></key>
+                                  <value><string id="8411.25" encoding="">traverse_subpath</string></value>
+                              </item>
+                              <item>
+                                  <key><string encoding="">name_m_self</string></key>
+                                  <value><string id="8411.26" encoding="">script</string></value>
+                              </item>
+                            </dictionary>
+                          </value>
+                      </item>
+                    </dictionary>
+                  </state>
+              </object>
+            </value>
+        </item>
+        <item>
+            <key><string id="8411.27" encoding="">__ac_local_roles__</string></key>
+            <value>
+              <dictionary id="8411.28">
+                <item>
+                    <key><string encoding="">admin</string></key>
+                    <value>
+                      <list id="8411.29">
+                          <string id="8411.30" encoding="">Owner</string>
+                      </list>
+                    </value>
+                </item>
+              </dictionary>
+            </value>
+        </item>
+        <item>
+            <key><string id="8411.31" encoding="">id</string></key>
+            <value><string id="8411.32" encoding="">get_regions</string></value>
+        </item>
+        <item>
+            <key><string id="8411.33" encoding="">_params</string></key>
+            <value><string encoding=""></string></value>
+        </item>
+        <item>
+            <key><string id="8411.34" encoding="">func_code</string></key>
+            <value>
+              <object id="8411.36">
+                  <klass>
+                    <global id="8411.35" name="FuncCode" module="Shared.DC.Scripts.Signature"/>
+                  </klass>
+                  <tuple/>
+                  <state>
+                    <dictionary id="8411.37">
+                      <item>
+                          <key><string id="8411.38" encoding="">co_argcount</string></key>
+                          <value><int>0</int></value>
+                      </item>
+                      <item>
+                          <key><string id="8411.39" encoding="">co_varnames</string></key>
+                          <value>
+                            <tuple>
+                                <string id="8411.40" encoding="">_print_</string>
+                                <string id="8411.41" encoding="">_print</string>
+                                <string id="8411.42" encoding="">string</string>
+                                <string id="8411.43" encoding="">_getattr_</string>
+                                <string id="8411.44" encoding="">context</string>
+                                <string id="8411.45" encoding="">brains</string>
+                                <string id="8411.46" encoding="">_getiter_</string>
+                                <string encoding="">b</string>
+                                <string encoding="">o</string>
+                                <string id="8411.47" encoding="">_getitem_</string>
+                            </tuple>
+                          </value>
+                      </item>
+                    </dictionary>
+                  </state>
+              </object>
+            </value>
+        </item>
+      </dictionary>
+    </pickle>
+  </record>
+</ZopeData>

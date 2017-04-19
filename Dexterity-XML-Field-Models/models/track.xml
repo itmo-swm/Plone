@@ -1,0 +1,27 @@
+<model xmlns:i18n="http://xml.zope.org/namespaces/i18n" xmlns:security="http://namespaces.plone.org/supermodel/security" xmlns:marshal="http://namespaces.plone.org/supermodel/marshal" xmlns:form="http://namespaces.plone.org/supermodel/form" xmlns="http://namespaces.plone.org/supermodel/schema">
+  <schema>
+    <field name="priority" type="zope.schema.Int">
+      <default>2</default>
+      <description/>
+      <title>priority</title>
+    </field>
+    <field name="max" type="zope.schema.Int">
+      <default>1000</default>
+      <description/>
+      <required>False</required>
+      <title>max</title>
+    </field>
+    <field name="volume" type="zope.schema.Int">
+      <default>0</default>
+      <description/>
+      <required>False</required>
+      <title>volume</title>
+    </field>
+    <field name="type" type="zope.schema.TextLine">
+      <default>glass</default>
+      <description/>
+      <required>False</required>
+      <title>type</title>
+    </field>
+  </schema>
+</model>

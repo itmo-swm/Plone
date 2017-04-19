@@ -1,0 +1,29 @@
+<model xmlns:i18n="http://xml.zope.org/namespaces/i18n" xmlns:security="http://namespaces.plone.org/supermodel/security" xmlns:marshal="http://namespaces.plone.org/supermodel/marshal" xmlns:form="http://namespaces.plone.org/supermodel/form" xmlns="http://namespaces.plone.org/supermodel/schema">
+  <schema>
+    <field name="type" type="zope.schema.TextLine">
+      <description/>
+      <required>False</required>
+      <title>Type</title>
+    </field>
+    <field name="video" type="zope.schema.TextLine">
+      <description/>
+      <required>False</required>
+      <title>Video</title>
+    </field>
+    <field name="audio" type="zope.schema.TextLine">
+      <description/>
+      <required>False</required>
+      <title>Audio</title>
+    </field>
+    <field name="created" type="zope.schema.Datetime">
+      <description/>
+      <required>False</required>
+      <title>Created</title>
+    </field>
+    <field name="annotation" type="plone.app.textfield.RichText">
+      <description/>
+      <required>False</required>
+      <title>Annotation</title>
+    </field>
+  </schema>
+</model>
