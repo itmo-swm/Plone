@@ -1,0 +1,17 @@
+itmo.swm Installation
+---------------------
+
+To install itmo.swm using zc.buildout and the plone.recipe.zope2instance
+recipe to manage your project, you can do this:
+
+* Add ``itmo.swm`` to the list of eggs to install, e.g.:
+
+    [buildout]
+    ...
+    eggs =
+        ...
+        itmo.swm
+       
+* Re-run buildout, e.g. with:
+
+    $ ./bin/buildout
