@@ -1,0 +1,1722 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/inna/ontologies/2017/3/untitled-ontology-4"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/inna/ontologies/2017/3/untitled-ontology-4">
+    <Prefix name="" IRI="http://www.semanticweb.org/inna/ontologies/2017/3/untitled-ontology-4#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="xsp" IRI="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
+    <Prefix name="sqwrl" IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#"/>
+    <Prefix name="swrla" IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"/>
+    <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
+    <Prefix name="protege" IRI="http://protege.stanford.edu/plugins/owl/protege#"/>
+    <Import>http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl</Import>
+    <Import>http://swrl.stanford.edu/ontologies/3.3/swrla.owl</Import>
+    <Declaration>
+        <DataProperty IRI="#hasVolume"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#price_for_organic_recycling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#smart_garbage_bin"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasId"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sgb_sensor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#price_for_dangerous_waste_recycling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sbg_GPS_sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CAN_bus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#waste_management_operator"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDescription"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scales_sensor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_part_of_sgb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#capacity__sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#truck"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#reflects_the_state_of_sgb"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPercentage_of_fullness"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMax_time_4_garbage_collection"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#price_for_organic_disposal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#temperature_sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#container_volume_sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sgb_lid_sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#accelerometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#glass_plastic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#waste_processing_company"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFullness"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#price_for_glass_disposal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#battery_charge_sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gas_sensor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPriority"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWeight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTruck_state"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#reflects_the_state_of_truck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#organic"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasState"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performs_garbage_collection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sgb_lid"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#price_per_hour"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#price_per_kilometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#truck_container"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#price_for_glass_recycling"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#title"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sgb_container"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#region"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isOpen"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_located"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCoordinates"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasBatteryCharge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dangerous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#truck_GPS_sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#route"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#waste"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#price_for_dangerous_waste_disposal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#container_scales_sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#truck_sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#waste_dump"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_part_of_truck"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_type_of"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sbg_GPRS_sensor_9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_lid_sensor_6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sbg_GPRS_sensor_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_lid_sensor_7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sbg_GPRS_sensor_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_lid_sensor_8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sbg_GPRS_sensor_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_lid_sensor_9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sbg_GPRS_sensor_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sbg_GPRS_sensor_7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sbg_GPRS_sensor_8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sbg_GPRS_sensor_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sbg_GPRS_sensor_6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_lid_sensor_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_lid_sensor_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_lid_sensor_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_lid_sensor_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_lid_sensor_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#waste_management_operator_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vasileostrovsky"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#waste_management_operator_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#waste_management_operator_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fullness_sensor_6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fullness_sensor_7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fullness_sensor_8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fullness_sensor_9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fullness_sensor_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fullness_sensor_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fullness_sensor_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fullness_sensor_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fullness_sensor_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gas_sensor_9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_lid_8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_lid_7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_lid_9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_lid_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_lid_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_lid_6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_lid_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_lid_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_lid_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#accelerometer_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#accelerometer_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#accelerometer_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#accelerometer_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#waste_dump_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#accelerometer_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#waste_dump_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#waste_dump_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#waste_dump_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#waste_dump_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#admiralteysky"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#route_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gas_sensor_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gas_sensor_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#route_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gas_sensor_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gas_sensor_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gas_sensor_8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gas_sensor_7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#route_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gas_sensor_6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#route_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#route_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gas_sensor_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#container_scales_sensor_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#container_scales_sensor_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#container_scales_sensor_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#container_scales_sensor_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#container_scales_sensor_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#petrodvortsovy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#temperature_sensor_8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nevsky"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#temperature_sensor_9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#temperature_sensor_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#temperature_sensor_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#temperature_sensor_6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#temperature_sensor_7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#scales_sensor_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#scales_sensor_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#scales_sensor_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#scales_sensor_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#scales_sensor_6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#scales_sensor_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#scales_sensor_8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#scales_sensor_7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CAN_bus_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CAN_bus_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CAN_bus_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CAN_bus_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CAN_bus_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#scales_sensor_9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#truck_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#truck_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#truck_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#truck_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#truck_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#truck_GPRS_sensor_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#truck_GPRS_sensor_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#truck_sensor_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#truck_GPRS_sensor_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#truck_sensor_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#truck_GPRS_sensor_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#truck_sensor_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#truck_sensor_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#truck_sensor_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#battery_charge_sensor_8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#battery_charge_sensor_9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#battery_charge_sensor_6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#truck_GPRS_sensor_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#battery_charge_sensor_7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#central"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#battery_charge_sensor_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_sensor_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#battery_charge_sensor_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#temperature_sensor_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#battery_charge_sensor_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#temperature_sensor_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#battery_charge_sensor_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#temperature_sensor_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_sensor_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_sensor_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#battery_charge_sensor_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_sensor_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_sensor_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_sensor_8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_sensor_9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_sensor_6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#container_volume_sensor_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgb_sensor_7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#container_volume_sensor_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#container_volume_sensor_2"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:time"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#container_volume_sensor_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#container_volume_sensor_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#smart_garbage_bin_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#smart_garbage_bin_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#smart_garbage_bin_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#smart_garbage_bin_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#smart_garbage_bin_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#smart_garbage_bin_9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#smart_garbage_bin_8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#smart_garbage_bin_7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#waste_processing_company_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#smart_garbage_bin_6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#waste_processing_company_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#waste_processing_company_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#waste_processing_company_3"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#CAN_bus"/>
+        <Class IRI="#truck_sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#accelerometer"/>
+        <Class IRI="#truck_sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#battery_charge_sensor"/>
+        <Class IRI="#sgb_sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#capacity__sensor"/>
+        <Class IRI="#sgb_sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#container_scales_sensor"/>
+        <Class IRI="#truck_sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#container_volume_sensor"/>
+        <Class IRI="#truck_sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dangerous"/>
+        <Class IRI="#waste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gas_sensor"/>
+        <Class IRI="#sgb_sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#glass_plastic"/>
+        <Class IRI="#waste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#organic"/>
+        <Class IRI="#waste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sbg_GPS_sensor"/>
+        <Class IRI="#sgb_sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#scales_sensor"/>
+        <Class IRI="#sgb_sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sgb_container"/>
+        <Class IRI="#smart_garbage_bin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sgb_lid"/>
+        <Class IRI="#smart_garbage_bin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sgb_lid_sensor"/>
+        <Class IRI="#sgb_lid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sgb_sensor"/>
+        <Class IRI="#smart_garbage_bin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#temperature_sensor"/>
+        <Class IRI="#sgb_sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#truck_GPS_sensor"/>
+        <Class IRI="#truck_sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#truck_container"/>
+        <Class IRI="#truck"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#truck_sensor"/>
+        <Class IRI="#truck"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#CAN_bus"/>
+        <NamedIndividual IRI="#CAN_bus_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CAN_bus"/>
+        <NamedIndividual IRI="#CAN_bus_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CAN_bus"/>
+        <NamedIndividual IRI="#CAN_bus_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CAN_bus"/>
+        <NamedIndividual IRI="#CAN_bus_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CAN_bus"/>
+        <NamedIndividual IRI="#CAN_bus_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#accelerometer"/>
+        <NamedIndividual IRI="#accelerometer_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#accelerometer"/>
+        <NamedIndividual IRI="#accelerometer_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#accelerometer"/>
+        <NamedIndividual IRI="#accelerometer_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#accelerometer"/>
+        <NamedIndividual IRI="#accelerometer_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#accelerometer"/>
+        <NamedIndividual IRI="#accelerometer_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#region"/>
+        <NamedIndividual IRI="#admiralteysky"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#battery_charge_sensor"/>
+        <NamedIndividual IRI="#battery_charge_sensor_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#battery_charge_sensor"/>
+        <NamedIndividual IRI="#battery_charge_sensor_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#battery_charge_sensor"/>
+        <NamedIndividual IRI="#battery_charge_sensor_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#battery_charge_sensor"/>
+        <NamedIndividual IRI="#battery_charge_sensor_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#battery_charge_sensor"/>
+        <NamedIndividual IRI="#battery_charge_sensor_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#battery_charge_sensor"/>
+        <NamedIndividual IRI="#battery_charge_sensor_6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#battery_charge_sensor"/>
+        <NamedIndividual IRI="#battery_charge_sensor_7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#battery_charge_sensor"/>
+        <NamedIndividual IRI="#battery_charge_sensor_8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#battery_charge_sensor"/>
+        <NamedIndividual IRI="#battery_charge_sensor_9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#region"/>
+        <NamedIndividual IRI="#central"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#container_scales_sensor"/>
+        <NamedIndividual IRI="#container_scales_sensor_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#container_scales_sensor"/>
+        <NamedIndividual IRI="#container_scales_sensor_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#container_scales_sensor"/>
+        <NamedIndividual IRI="#container_scales_sensor_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#container_scales_sensor"/>
+        <NamedIndividual IRI="#container_scales_sensor_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#container_scales_sensor"/>
+        <NamedIndividual IRI="#container_scales_sensor_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#container_volume_sensor"/>
+        <NamedIndividual IRI="#container_volume_sensor_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#container_volume_sensor"/>
+        <NamedIndividual IRI="#container_volume_sensor_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#container_volume_sensor"/>
+        <NamedIndividual IRI="#container_volume_sensor_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#container_volume_sensor"/>
+        <NamedIndividual IRI="#container_volume_sensor_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#container_volume_sensor"/>
+        <NamedIndividual IRI="#container_volume_sensor_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#capacity__sensor"/>
+        <NamedIndividual IRI="#fullness_sensor_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#capacity__sensor"/>
+        <NamedIndividual IRI="#fullness_sensor_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#capacity__sensor"/>
+        <NamedIndividual IRI="#fullness_sensor_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#capacity__sensor"/>
+        <NamedIndividual IRI="#fullness_sensor_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#capacity__sensor"/>
+        <NamedIndividual IRI="#fullness_sensor_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#capacity__sensor"/>
+        <NamedIndividual IRI="#fullness_sensor_6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#capacity__sensor"/>
+        <NamedIndividual IRI="#fullness_sensor_7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#capacity__sensor"/>
+        <NamedIndividual IRI="#fullness_sensor_8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#capacity__sensor"/>
+        <NamedIndividual IRI="#fullness_sensor_9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gas_sensor"/>
+        <NamedIndividual IRI="#gas_sensor_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gas_sensor"/>
+        <NamedIndividual IRI="#gas_sensor_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gas_sensor"/>
+        <NamedIndividual IRI="#gas_sensor_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gas_sensor"/>
+        <NamedIndividual IRI="#gas_sensor_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gas_sensor"/>
+        <NamedIndividual IRI="#gas_sensor_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gas_sensor"/>
+        <NamedIndividual IRI="#gas_sensor_6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gas_sensor"/>
+        <NamedIndividual IRI="#gas_sensor_7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gas_sensor"/>
+        <NamedIndividual IRI="#gas_sensor_8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gas_sensor"/>
+        <NamedIndividual IRI="#gas_sensor_9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#region"/>
+        <NamedIndividual IRI="#nevsky"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#region"/>
+        <NamedIndividual IRI="#petrodvortsovy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#route"/>
+        <NamedIndividual IRI="#route_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#route"/>
+        <NamedIndividual IRI="#route_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#route"/>
+        <NamedIndividual IRI="#route_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#route"/>
+        <NamedIndividual IRI="#route_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#route"/>
+        <NamedIndividual IRI="#route_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sbg_GPS_sensor"/>
+        <NamedIndividual IRI="#sbg_GPRS_sensor_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sbg_GPS_sensor"/>
+        <NamedIndividual IRI="#sbg_GPRS_sensor_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sbg_GPS_sensor"/>
+        <NamedIndividual IRI="#sbg_GPRS_sensor_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sbg_GPS_sensor"/>
+        <NamedIndividual IRI="#sbg_GPRS_sensor_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sbg_GPS_sensor"/>
+        <NamedIndividual IRI="#sbg_GPRS_sensor_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sbg_GPS_sensor"/>
+        <NamedIndividual IRI="#sbg_GPRS_sensor_6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sbg_GPS_sensor"/>
+        <NamedIndividual IRI="#sbg_GPRS_sensor_7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sbg_GPS_sensor"/>
+        <NamedIndividual IRI="#sbg_GPRS_sensor_8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sbg_GPS_sensor"/>
+        <NamedIndividual IRI="#sbg_GPRS_sensor_9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#scales_sensor"/>
+        <NamedIndividual IRI="#scales_sensor_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#scales_sensor"/>
+        <NamedIndividual IRI="#scales_sensor_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#scales_sensor"/>
+        <NamedIndividual IRI="#scales_sensor_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#scales_sensor"/>
+        <NamedIndividual IRI="#scales_sensor_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#scales_sensor"/>
+        <NamedIndividual IRI="#scales_sensor_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#scales_sensor"/>
+        <NamedIndividual IRI="#scales_sensor_6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#scales_sensor"/>
+        <NamedIndividual IRI="#scales_sensor_7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#scales_sensor"/>
+        <NamedIndividual IRI="#scales_sensor_8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#scales_sensor"/>
+        <NamedIndividual IRI="#scales_sensor_9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_lid"/>
+        <NamedIndividual IRI="#sgb_lid_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_lid"/>
+        <NamedIndividual IRI="#sgb_lid_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_lid"/>
+        <NamedIndividual IRI="#sgb_lid_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_lid"/>
+        <NamedIndividual IRI="#sgb_lid_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_lid"/>
+        <NamedIndividual IRI="#sgb_lid_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_lid"/>
+        <NamedIndividual IRI="#sgb_lid_6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_lid"/>
+        <NamedIndividual IRI="#sgb_lid_7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_lid"/>
+        <NamedIndividual IRI="#sgb_lid_8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_lid"/>
+        <NamedIndividual IRI="#sgb_lid_9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_lid_sensor"/>
+        <NamedIndividual IRI="#sgb_lid_sensor_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_lid_sensor"/>
+        <NamedIndividual IRI="#sgb_lid_sensor_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_lid_sensor"/>
+        <NamedIndividual IRI="#sgb_lid_sensor_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_lid_sensor"/>
+        <NamedIndividual IRI="#sgb_lid_sensor_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_lid_sensor"/>
+        <NamedIndividual IRI="#sgb_lid_sensor_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_lid_sensor"/>
+        <NamedIndividual IRI="#sgb_lid_sensor_6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_lid_sensor"/>
+        <NamedIndividual IRI="#sgb_lid_sensor_7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_lid_sensor"/>
+        <NamedIndividual IRI="#sgb_lid_sensor_8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_lid_sensor"/>
+        <NamedIndividual IRI="#sgb_lid_sensor_9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_sensor"/>
+        <NamedIndividual IRI="#sgb_sensor_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_sensor"/>
+        <NamedIndividual IRI="#sgb_sensor_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_sensor"/>
+        <NamedIndividual IRI="#sgb_sensor_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_sensor"/>
+        <NamedIndividual IRI="#sgb_sensor_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_sensor"/>
+        <NamedIndividual IRI="#sgb_sensor_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_sensor"/>
+        <NamedIndividual IRI="#sgb_sensor_6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_sensor"/>
+        <NamedIndividual IRI="#sgb_sensor_7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_sensor"/>
+        <NamedIndividual IRI="#sgb_sensor_8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sgb_sensor"/>
+        <NamedIndividual IRI="#sgb_sensor_9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#smart_garbage_bin"/>
+        <NamedIndividual IRI="#smart_garbage_bin_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#smart_garbage_bin"/>
+        <NamedIndividual IRI="#smart_garbage_bin_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#smart_garbage_bin"/>
+        <NamedIndividual IRI="#smart_garbage_bin_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#smart_garbage_bin"/>
+        <NamedIndividual IRI="#smart_garbage_bin_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#smart_garbage_bin"/>
+        <NamedIndividual IRI="#smart_garbage_bin_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#smart_garbage_bin"/>
+        <NamedIndividual IRI="#smart_garbage_bin_6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#smart_garbage_bin"/>
+        <NamedIndividual IRI="#smart_garbage_bin_7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#smart_garbage_bin"/>
+        <NamedIndividual IRI="#smart_garbage_bin_8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#smart_garbage_bin"/>
+        <NamedIndividual IRI="#smart_garbage_bin_9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#temperature_sensor"/>
+        <NamedIndividual IRI="#temperature_sensor_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#temperature_sensor"/>
+        <NamedIndividual IRI="#temperature_sensor_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#temperature_sensor"/>
+        <NamedIndividual IRI="#temperature_sensor_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#temperature_sensor"/>
+        <NamedIndividual IRI="#temperature_sensor_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#temperature_sensor"/>
+        <NamedIndividual IRI="#temperature_sensor_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#temperature_sensor"/>
+        <NamedIndividual IRI="#temperature_sensor_6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#temperature_sensor"/>
+        <NamedIndividual IRI="#temperature_sensor_7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#temperature_sensor"/>
+        <NamedIndividual IRI="#temperature_sensor_8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#temperature_sensor"/>
+        <NamedIndividual IRI="#temperature_sensor_9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#truck"/>
+        <NamedIndividual IRI="#truck_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#truck"/>
+        <NamedIndividual IRI="#truck_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#truck"/>
+        <NamedIndividual IRI="#truck_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#truck"/>
+        <NamedIndividual IRI="#truck_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#truck"/>
+        <NamedIndividual IRI="#truck_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#truck_GPS_sensor"/>
+        <NamedIndividual IRI="#truck_GPRS_sensor_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#truck_GPS_sensor"/>
+        <NamedIndividual IRI="#truck_GPRS_sensor_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#truck_GPS_sensor"/>
+        <NamedIndividual IRI="#truck_GPRS_sensor_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#truck_GPS_sensor"/>
+        <NamedIndividual IRI="#truck_GPRS_sensor_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#truck_GPS_sensor"/>
+        <NamedIndividual IRI="#truck_GPRS_sensor_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#truck_sensor"/>
+        <NamedIndividual IRI="#truck_sensor_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#truck_sensor"/>
+        <NamedIndividual IRI="#truck_sensor_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#truck_sensor"/>
+        <NamedIndividual IRI="#truck_sensor_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#truck_sensor"/>
+        <NamedIndividual IRI="#truck_sensor_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#truck_sensor"/>
+        <NamedIndividual IRI="#truck_sensor_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#region"/>
+        <NamedIndividual IRI="#vasileostrovsky"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#waste_dump"/>
+        <NamedIndividual IRI="#waste_dump_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#waste_dump"/>
+        <NamedIndividual IRI="#waste_dump_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#waste_dump"/>
+        <NamedIndividual IRI="#waste_dump_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#waste_dump"/>
+        <NamedIndividual IRI="#waste_dump_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#waste_dump"/>
+        <NamedIndividual IRI="#waste_dump_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#waste_management_operator"/>
+        <NamedIndividual IRI="#waste_management_operator_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#waste_management_operator"/>
+        <NamedIndividual IRI="#waste_management_operator_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#waste_management_operator"/>
+        <NamedIndividual IRI="#waste_management_operator_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#waste_processing_company"/>
+        <NamedIndividual IRI="#waste_processing_company_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#waste_processing_company"/>
+        <NamedIndividual IRI="#waste_processing_company_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#waste_processing_company"/>
+        <NamedIndividual IRI="#waste_processing_company_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#waste_processing_company"/>
+        <NamedIndividual IRI="#waste_processing_company_4"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasState"/>
+        <NamedIndividual IRI="#smart_garbage_bin_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">100%</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_located"/>
+        <ObjectUnionOf>
+            <Class IRI="#route"/>
+            <Class IRI="#smart_garbage_bin"/>
+            <Class IRI="#truck"/>
+            <Class IRI="#waste_dump"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_part_of_sgb"/>
+        <ObjectUnionOf>
+            <Class IRI="#sgb_container"/>
+            <Class IRI="#sgb_lid"/>
+            <Class IRI="#sgb_sensor"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_part_of_truck"/>
+        <ObjectUnionOf>
+            <Class IRI="#truck_container"/>
+            <Class IRI="#truck_sensor"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_type_of"/>
+        <ObjectUnionOf>
+            <Class IRI="#dangerous"/>
+            <Class IRI="#glass_plastic"/>
+            <Class IRI="#organic"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performs_garbage_collection"/>
+        <Class IRI="#waste_processing_company"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_located"/>
+        <Class IRI="#region"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_part_of_sgb"/>
+        <Class IRI="#smart_garbage_bin"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_part_of_truck"/>
+        <Class IRI="#truck"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_type_of"/>
+        <Class IRI="#waste"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performs_garbage_collection"/>
+        <Class IRI="#region"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#reflects_the_state_of_sgb"/>
+        <Class IRI="#smart_garbage_bin"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#reflects_the_state_of_truck"/>
+        <Class IRI="#truck"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCoordinates"/>
+        <ObjectUnionOf>
+            <Class IRI="#region"/>
+            <Class IRI="#route"/>
+            <Class IRI="#smart_garbage_bin"/>
+            <Class IRI="#truck"/>
+            <Class IRI="#waste_dump"/>
+            <Class IRI="#waste_processing_company"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDescription"/>
+        <ObjectUnionOf>
+            <Class IRI="#region"/>
+            <Class IRI="#route"/>
+            <Class IRI="#smart_garbage_bin"/>
+            <Class IRI="#truck"/>
+            <Class IRI="#waste_dump"/>
+            <Class IRI="#waste_management_operator"/>
+            <Class IRI="#waste_processing_company"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFullness"/>
+        <ObjectUnionOf>
+            <Class IRI="#capacity__sensor"/>
+            <Class IRI="#sgb_container"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasId"/>
+        <ObjectUnionOf>
+            <Class IRI="#CAN_bus"/>
+            <Class IRI="#accelerometer"/>
+            <Class IRI="#capacity__sensor"/>
+            <Class IRI="#container_volume_sensor"/>
+            <Class IRI="#gas_sensor"/>
+            <Class IRI="#region"/>
+            <Class IRI="#route"/>
+            <Class IRI="#sbg_GPS_sensor"/>
+            <Class IRI="#sgb_lid_sensor"/>
+            <Class IRI="#smart_garbage_bin"/>
+            <Class IRI="#temperature_sensor"/>
+            <Class IRI="#truck"/>
+            <Class IRI="#waste_dump"/>
+            <Class IRI="#waste_management_operator"/>
+            <Class IRI="#waste_processing_company"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMax_time_4_garbage_collection"/>
+        <Class IRI="#route"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPercentage_of_fullness"/>
+        <ObjectUnionOf>
+            <Class IRI="#capacity__sensor"/>
+            <Class IRI="#container_volume_sensor"/>
+            <Class IRI="#sgb_container"/>
+            <Class IRI="#truck_container"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPriority"/>
+        <Class IRI="#truck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasState"/>
+        <Class IRI="#smart_garbage_bin"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasVolume"/>
+        <ObjectUnionOf>
+            <Class IRI="#capacity__sensor"/>
+            <Class IRI="#container_volume_sensor"/>
+            <Class IRI="#sgb_container"/>
+            <Class IRI="#smart_garbage_bin"/>
+            <Class IRI="#truck_container"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasWeight"/>
+        <ObjectUnionOf>
+            <Class IRI="#scales_sensor"/>
+            <Class IRI="#sgb_container"/>
+            <Class IRI="#smart_garbage_bin"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isOpen"/>
+        <ObjectUnionOf>
+            <Class IRI="#sgb_lid"/>
+            <Class IRI="#smart_garbage_bin"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#price_for_dangerous_waste_disposal"/>
+        <Class IRI="#waste_dump"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#price_for_dangerous_waste_recycling"/>
+        <Class IRI="#waste_processing_company"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#price_for_glass_disposal"/>
+        <Class IRI="#waste_dump"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#price_for_glass_recycling"/>
+        <Class IRI="#waste_processing_company"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#price_for_organic_disposal"/>
+        <Class IRI="#waste_dump"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#price_for_organic_recycling"/>
+        <Class IRI="#waste_processing_company"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#price_per_hour"/>
+        <Class IRI="#truck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#price_per_kilometer"/>
+        <Class IRI="#truck"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#title"/>
+        <ObjectUnionOf>
+            <Class IRI="#region"/>
+            <Class IRI="#route"/>
+            <Class IRI="#smart_garbage_bin"/>
+            <Class IRI="#truck"/>
+            <Class IRI="#waste_dump"/>
+            <Class IRI="#waste_management_operator"/>
+            <Class IRI="#waste_processing_company"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCoordinates"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasId"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMax_time_4_garbage_collection"/>
+        <Datatype abbreviatedIRI="xsd:time"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPercentage_of_fullness"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPriority"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasState"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">10%</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">100%</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">20%</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">30%</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">40%</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">50%</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">60%</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">70%</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">80%</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">90%</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Empty</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Low battery</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Missing sensor block</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">No access</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sensor failure</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTruck_state"/>
+        <DataOneOf>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">100%</Literal>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">80%</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasVolume"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isOpen"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#price_for_dangerous_waste_disposal"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#price_for_dangerous_waste_recycling"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#price_for_glass_disposal"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#price_for_glass_recycling"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#price_for_organic_disposal"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#price_for_organic_recycling"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#price_per_hour"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#price_per_kilometer"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#title"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#smart_garbage_bin"/>
+                <Variable IRI="#s"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#battery_charge_sensor"/>
+                <Variable IRI="#b"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasState"/>
+                <Variable IRI="#s"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Volume sensor failure </Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#smart_garbage_bin"/>
+                <Variable IRI="#s"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#sgb_container"/>
+                <Variable IRI="#c"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#sgb_lid"/>
+                <Variable IRI="#l"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#is_part_of_sgb"/>
+                <Variable IRI="#l"/>
+                <Variable IRI="#s"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#is_part_of_sgb"/>
+                <Variable IRI="#c"/>
+                <Variable IRI="#s"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#isOpen"/>
+                <Variable IRI="#l"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">1</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasVolume"/>
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">0</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasFullness"/>
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">0</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasCoordinates"/>
+                <Variable IRI="#s"/>
+                <Variable IRI="#s_coord"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasCoordinates"/>
+                <Variable IRI="#c"/>
+                <Variable IRI="#c_coord"/>
+            </DataPropertyAtom>
+            <BuiltInAtom abbreviatedIRI="swrlb:notEqual">
+                <Variable IRI="#c_coord"/>
+                <Variable IRI="#s_coord"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasState"/>
+                <Variable IRI="#s"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Missing sensor block</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#smart_garbage_bin"/>
+                <Variable IRI="#s"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasVolume"/>
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">0</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasFullness"/>
+                <Variable IRI="#c"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#long">100</Literal>
+            </DataPropertyAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#hasState"/>
+                <Variable IRI="#s"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Volume sensor failure </Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
