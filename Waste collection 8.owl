@@ -1,0 +1,858 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:sqwrl="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#"
+    xmlns="http://www.semanticweb.org/inna/ontologies/2017/3/untitled-ontology-4#"
+  xml:base="http://www.semanticweb.org/inna/ontologies/2017/3/untitled-ontology-4">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://swrl.stanford.edu/ontologies/3.3/swrla.owl"/>
+    <owl:imports rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl"/>
+  </owl:Ontology>
+  <owl:Class rdf:ID="sgb_lid_sensor">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="sgb_lid"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class>
+    <owl:unionOf rdf:parseType="Collection">
+      <owl:Class rdf:ID="smart_garbage_bin"/>
+      <owl:Class rdf:ID="waste_dump"/>
+      <owl:Class rdf:ID="truck"/>
+      <owl:Class rdf:ID="waste_processing_company"/>
+      <owl:Class rdf:ID="waste_management_operator"/>
+      <owl:Class rdf:ID="region"/>
+      <owl:Class rdf:ID="route"/>
+    </owl:unionOf>
+  </owl:Class>
+  <owl:Class>
+    <owl:unionOf rdf:parseType="Collection">
+      <owl:Class rdf:about="#smart_garbage_bin"/>
+      <owl:Class rdf:about="#waste_dump"/>
+      <owl:Class rdf:about="#truck"/>
+      <owl:Class rdf:about="#waste_management_operator"/>
+      <owl:Class rdf:about="#region"/>
+      <owl:Class rdf:about="#route"/>
+    </owl:unionOf>
+  </owl:Class>
+  <owl:Class rdf:ID="fullness_sensor">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="sgb_sensor"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="sbg_GPRS_sensor">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#sgb_sensor"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="truck_indication_on_the_map">
+    <rdfs:subClassOf rdf:resource="#truck"/>
+  </owl:Class>
+  <owl:Class>
+    <owl:unionOf rdf:parseType="Collection">
+      <owl:Class rdf:about="#smart_garbage_bin"/>
+      <owl:Class rdf:about="#truck"/>
+      <owl:Class rdf:about="#waste_dump"/>
+      <owl:Class rdf:about="#waste_processing_company"/>
+    </owl:unionOf>
+  </owl:Class>
+  <owl:Class rdf:ID="scales_sensor">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#sgb_sensor"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="gas_sensor">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#sgb_sensor"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="waste"/>
+  <owl:Class rdf:ID="container_scales_sensor">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="truck_sensor"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="accelerometer">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#truck_sensor"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="battery_charge_sensor">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#sgb_sensor"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="glass_plastic">
+    <rdfs:subClassOf rdf:resource="#waste"/>
+  </owl:Class>
+  <owl:Class rdf:ID="organic">
+    <rdfs:subClassOf rdf:resource="#waste"/>
+  </owl:Class>
+  <owl:Class rdf:ID="truck_GPRS_sensor">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#truck_sensor"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="container_volume_sensor">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#truck_sensor"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#truck_sensor">
+    <rdfs:subClassOf rdf:resource="#truck"/>
+  </owl:Class>
+  <owl:Class rdf:ID="truck_container">
+    <rdfs:subClassOf rdf:resource="#truck"/>
+  </owl:Class>
+  <owl:Class>
+    <owl:unionOf rdf:parseType="Collection">
+      <owl:Class rdf:ID="dangerous"/>
+      <owl:Class rdf:about="#glass_plastic"/>
+      <owl:Class rdf:about="#organic"/>
+    </owl:unionOf>
+  </owl:Class>
+  <owl:Class rdf:ID="sgb_container">
+    <rdfs:subClassOf rdf:resource="#smart_garbage_bin"/>
+  </owl:Class>
+  <owl:Class rdf:ID="temperature_sensor">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#sgb_sensor"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="CAN_bus">
+    <rdfs:subClassOf rdf:resource="#truck_sensor"/>
+  </owl:Class>
+  <owl:Class rdf:about="#sgb_lid">
+    <rdfs:subClassOf rdf:resource="#smart_garbage_bin"/>
+  </owl:Class>
+  <owl:Class rdf:about="#sgb_sensor">
+    <rdfs:subClassOf rdf:resource="#smart_garbage_bin"/>
+  </owl:Class>
+  <owl:Class rdf:about="#dangerous">
+    <rdfs:subClassOf rdf:resource="#waste"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="reflects_the_state_of_sgb">
+    <rdfs:range rdf:resource="#smart_garbage_bin"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="is_part_of_truck">
+    <rdfs:range rdf:resource="#truck"/>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#truck_container"/>
+          <owl:Class rdf:about="#truck_sensor"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="is_located">
+    <rdfs:range rdf:resource="#region"/>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#smart_garbage_bin"/>
+          <owl:Class rdf:about="#waste_dump"/>
+          <owl:Class rdf:about="#truck"/>
+          <owl:Class rdf:about="#route"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="reflects_the_state_of_truck">
+    <rdfs:domain rdf:resource="#truck_indication_on_the_map"/>
+    <rdfs:range rdf:resource="#truck"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="performs_garbage_collection">
+    <rdfs:domain rdf:resource="#waste_processing_company"/>
+    <rdfs:range rdf:resource="#region"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="is_type_of">
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#organic"/>
+          <owl:Class rdf:about="#glass_plastic"/>
+          <owl:Class rdf:about="#dangerous"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="#waste"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="is_part_of_sgb">
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#sgb_lid"/>
+          <owl:Class rdf:about="#sgb_sensor"/>
+          <owl:Class rdf:about="#sgb_container"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="#smart_garbage_bin"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="hasFullness">
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#fullness_sensor"/>
+          <owl:Class rdf:about="#sgb_container"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasTruck_state">
+    <rdfs:range>
+      <owl:DataRange>
+        <owl:oneOf rdf:parseType="Resource">
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+          >100%</rdf:first>
+          <rdf:rest rdf:parseType="Resource">
+            <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >80%</rdf:first>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+          </rdf:rest>
+        </owl:oneOf>
+      </owl:DataRange>
+    </rdfs:range>
+    <rdfs:domain rdf:resource="#truck_indication_on_the_map"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="price_for_organic_recycling">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="#waste_processing_company"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasMax_time_4_garbage_collection">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <rdfs:domain rdf:resource="#route"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasPercentage_of_fullness">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#truck_container"/>
+          <owl:Class rdf:about="#sgb_container"/>
+          <owl:Class rdf:about="#fullness_sensor"/>
+          <owl:Class rdf:about="#container_volume_sensor"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="isOpen">
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#sgb_lid"/>
+          <owl:Class rdf:about="#smart_garbage_bin"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="price_for_dangerous_waste_disposal">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="#waste_dump"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="price_for_organic_disposal">
+    <rdfs:domain rdf:resource="#waste_dump"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasState">
+    <rdfs:range>
+      <owl:DataRange>
+        <owl:oneOf rdf:parseType="Resource">
+          <rdf:rest rdf:parseType="Resource">
+            <rdf:rest rdf:parseType="Resource">
+              <rdf:rest rdf:parseType="Resource">
+                <rdf:rest rdf:parseType="Resource">
+                  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                  >Missing sensor block</rdf:first>
+                  <rdf:rest rdf:parseType="Resource">
+                    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                    >Low battery</rdf:first>
+                    <rdf:rest rdf:parseType="Resource">
+                      <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                      >90%</rdf:first>
+                      <rdf:rest rdf:parseType="Resource">
+                        <rdf:rest rdf:parseType="Resource">
+                          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                          >60%</rdf:first>
+                          <rdf:rest rdf:parseType="Resource">
+                            <rdf:rest rdf:parseType="Resource">
+                              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                              >40%</rdf:first>
+                              <rdf:rest rdf:parseType="Resource">
+                                <rdf:rest rdf:parseType="Resource">
+                                  <rdf:rest rdf:parseType="Resource">
+                                    <rdf:rest rdf:parseType="Resource">
+                                      <rdf:first rdf:datatype=
+                                      "http://www.w3.org/2001/XMLSchema#string"
+                                      >Empty</rdf:first>
+                                      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:rest>
+                                    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                                    >10%</rdf:first>
+                                  </rdf:rest>
+                                  <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                                  >20%</rdf:first>
+                                </rdf:rest>
+                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                                >30%</rdf:first>
+                              </rdf:rest>
+                            </rdf:rest>
+                            <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                            >50%</rdf:first>
+                          </rdf:rest>
+                        </rdf:rest>
+                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                        >70%</rdf:first>
+                      </rdf:rest>
+                    </rdf:rest>
+                  </rdf:rest>
+                </rdf:rest>
+                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+                >Sensor failure</rdf:first>
+              </rdf:rest>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+              >No access</rdf:first>
+            </rdf:rest>
+            <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >80%</rdf:first>
+          </rdf:rest>
+          <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+          >100%</rdf:first>
+        </owl:oneOf>
+      </owl:DataRange>
+    </rdfs:range>
+    <rdfs:domain rdf:resource="#smart_garbage_bin"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="price_for_dangerous_waste_recycling">
+    <rdfs:domain rdf:resource="#waste_processing_company"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasVolume">
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#truck_container"/>
+          <owl:Class rdf:about="#sgb_container"/>
+          <owl:Class rdf:about="#fullness_sensor"/>
+          <owl:Class rdf:about="#container_volume_sensor"/>
+          <owl:Class rdf:about="#smart_garbage_bin"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasPriority">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="#truck"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="price_per_kilometer">
+    <rdfs:domain rdf:resource="#truck"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasDescription">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#smart_garbage_bin"/>
+          <owl:Class rdf:about="#waste_dump"/>
+          <owl:Class rdf:about="#truck"/>
+          <owl:Class rdf:about="#waste_processing_company"/>
+          <owl:Class rdf:about="#waste_management_operator"/>
+          <owl:Class rdf:about="#region"/>
+          <owl:Class rdf:about="#route"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="title">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#smart_garbage_bin"/>
+          <owl:Class rdf:about="#waste_dump"/>
+          <owl:Class rdf:about="#truck"/>
+          <owl:Class rdf:about="#waste_processing_company"/>
+          <owl:Class rdf:about="#waste_management_operator"/>
+          <owl:Class rdf:about="#region"/>
+          <owl:Class rdf:about="#route"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasId">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#smart_garbage_bin"/>
+          <owl:Class rdf:about="#waste_dump"/>
+          <owl:Class rdf:about="#truck"/>
+          <owl:Class rdf:about="#waste_processing_company"/>
+          <owl:Class rdf:about="#waste_management_operator"/>
+          <owl:Class rdf:about="#region"/>
+          <owl:Class rdf:about="#route"/>
+          <owl:Class rdf:about="#sbg_GPRS_sensor"/>
+          <owl:Class rdf:about="#fullness_sensor"/>
+          <owl:Class rdf:about="#container_volume_sensor"/>
+          <owl:Class rdf:about="#accelerometer"/>
+          <owl:Class rdf:about="#gas_sensor"/>
+          <owl:Class rdf:about="#CAN_bus"/>
+          <owl:Class rdf:about="#temperature_sensor"/>
+          <owl:Class rdf:about="#sgb_lid_sensor"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="price_per_hour">
+    <rdfs:domain rdf:resource="#truck"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="price_for_glass_recycling">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="#waste_processing_company"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasCoordinates">
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#smart_garbage_bin"/>
+          <owl:Class rdf:about="#waste_dump"/>
+          <owl:Class rdf:about="#truck"/>
+          <owl:Class rdf:about="#waste_processing_company"/>
+          <owl:Class rdf:about="#region"/>
+          <owl:Class rdf:about="#route"/>
+          <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasWeight">
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <owl:Class rdf:about="#scales_sensor"/>
+          <owl:Class rdf:about="#smart_garbage_bin"/>
+          <owl:Class rdf:about="#sgb_container"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="price_for_glass_disposal">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="#waste_dump"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasBatteryCharge"/>
+  <battery_charge_sensor rdf:ID="battery_charge_sensor_3"/>
+  <gas_sensor rdf:ID="gas_sensor_9"/>
+  <waste_dump rdf:ID="waste_dump_4"/>
+  <container_volume_sensor rdf:ID="container_volume_sensor_3"/>
+  <route rdf:ID="route_4"/>
+  <container_scales_sensor rdf:ID="container_scales_sensor_4"/>
+  <sgb_lid rdf:ID="sgb_lid_7"/>
+  <temperature_sensor rdf:ID="temperature_sensor_8"/>
+  <route rdf:ID="route_1"/>
+  <container_volume_sensor rdf:ID="container_volume_sensor_1"/>
+  <truck rdf:ID="truck_1"/>
+  <scales_sensor rdf:ID="scales_sensor_1"/>
+  <sgb_sensor rdf:ID="sgb_sensor_9"/>
+  <sgb_lid_sensor rdf:ID="sgb_lid_sensor_7"/>
+  <truck rdf:ID="truck_2"/>
+  <battery_charge_sensor rdf:ID="battery_charge_sensor_8"/>
+  <truck_GPRS_sensor rdf:ID="truck_GPRS_sensor_2"/>
+  <accelerometer rdf:ID="accelerometer_2"/>
+  <swrl:AtomList/>
+  <sgb_lid_sensor rdf:ID="sgb_lid_sensor_9"/>
+  <sgb_lid rdf:ID="sgb_lid_4"/>
+  <sbg_GPRS_sensor rdf:ID="sbg_GPRS_sensor_8"/>
+  <CAN_bus rdf:ID="CAN_bus_2"/>
+  <truck_GPRS_sensor rdf:ID="truck_GPRS_sensor_3"/>
+  <truck_sensor rdf:ID="truck_sensor_3"/>
+  <gas_sensor rdf:ID="gas_sensor_2"/>
+  <scales_sensor rdf:ID="scales_sensor_9"/>
+  <fullness_sensor rdf:ID="fullness_sensor_3"/>
+  <waste_dump rdf:ID="waste_dump_3"/>
+  <truck_sensor rdf:ID="truck_sensor_5"/>
+  <fullness_sensor rdf:ID="fullness_sensor_4"/>
+  <gas_sensor rdf:ID="gas_sensor_1"/>
+  <sgb_lid rdf:ID="sgb_lid_3"/>
+  <temperature_sensor rdf:ID="temperature_sensor_6"/>
+  <smart_garbage_bin rdf:ID="smart_garbage_bin_2"/>
+  <CAN_bus rdf:ID="CAN_bus_1"/>
+  <scales_sensor rdf:ID="scales_sensor_8"/>
+  <sgb_lid rdf:ID="sgb_lid_1"/>
+  <temperature_sensor rdf:ID="temperature_sensor_5"/>
+  <accelerometer rdf:ID="accelerometer_4"/>
+  <scales_sensor rdf:ID="scales_sensor_5"/>
+  <sgb_lid_sensor rdf:ID="sgb_lid_sensor_8"/>
+  <temperature_sensor rdf:ID="temperature_sensor_4"/>
+  <smart_garbage_bin rdf:ID="smart_garbage_bin_7"/>
+  <sbg_GPRS_sensor rdf:ID="sbg_GPRS_sensor_3"/>
+  <scales_sensor rdf:ID="scales_sensor_2"/>
+  <smart_garbage_bin rdf:ID="smart_garbage_bin_8"/>
+  <battery_charge_sensor rdf:ID="battery_charge_sensor_6"/>
+  <region rdf:ID="nevsky"/>
+  <battery_charge_sensor rdf:ID="battery_charge_sensor_5"/>
+  <accelerometer rdf:ID="accelerometer_5"/>
+  <sbg_GPRS_sensor rdf:ID="sbg_GPRS_sensor_4"/>
+  <temperature_sensor rdf:ID="temperature_sensor_1"/>
+  <sgb_lid_sensor rdf:ID="sgb_lid_sensor_1"/>
+  <smart_garbage_bin rdf:ID="smart_garbage_bin_5"/>
+  <region rdf:ID="central"/>
+  <fullness_sensor rdf:ID="fullness_sensor_6"/>
+  <CAN_bus rdf:ID="CAN_bus_3"/>
+  <sbg_GPRS_sensor rdf:ID="sbg_GPRS_sensor_1"/>
+  <sgb_lid_sensor rdf:ID="sgb_lid_sensor_5"/>
+  <fullness_sensor rdf:ID="fullness_sensor_1"/>
+  <CAN_bus rdf:ID="CAN_bus_5"/>
+  <smart_garbage_bin rdf:ID="smart_garbage_bin_4"/>
+  <sgb_sensor rdf:ID="sgb_sensor_6"/>
+  <gas_sensor rdf:ID="gas_sensor_6"/>
+  <container_scales_sensor rdf:ID="container_scales_sensor_3"/>
+  <gas_sensor rdf:ID="gas_sensor_4"/>
+  <swrl:Imp rdf:ID="Rule-3">
+    <swrl:head>
+      <swrl:AtomList>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        <rdf:first>
+          <swrl:DatavaluedPropertyAtom>
+            <swrl:argument1>
+              <swrl:Variable rdf:ID="s"/>
+            </swrl:argument1>
+            <swrl:propertyPredicate rdf:resource="#hasState"/>
+            <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Volume sensor failure </swrl:argument2>
+          </swrl:DatavaluedPropertyAtom>
+        </rdf:first>
+      </swrl:AtomList>
+    </swrl:head>
+    <swrl:body>
+      <swrl:AtomList>
+        <rdf:rest>
+          <swrl:AtomList>
+            <rdf:first>
+              <swrl:ClassAtom>
+                <swrl:classPredicate rdf:resource="#battery_charge_sensor"/>
+                <swrl:argument1>
+                  <swrl:Variable rdf:ID="b"/>
+                </swrl:argument1>
+              </swrl:ClassAtom>
+            </rdf:first>
+            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+          </swrl:AtomList>
+        </rdf:rest>
+        <rdf:first>
+          <swrl:ClassAtom>
+            <swrl:argument1 rdf:resource="#s"/>
+            <swrl:classPredicate rdf:resource="#smart_garbage_bin"/>
+          </swrl:ClassAtom>
+        </rdf:first>
+      </swrl:AtomList>
+    </swrl:body>
+  </swrl:Imp>
+  <sbg_GPRS_sensor rdf:ID="sbg_GPRS_sensor_7"/>
+  <smart_garbage_bin rdf:ID="smart_garbage_bin_3"/>
+  <smart_garbage_bin rdf:ID="smart_garbage_bin_6"/>
+  <waste_management_operator rdf:ID="waste_management_operator_2"/>
+  <route rdf:ID="route_2"/>
+  <gas_sensor rdf:ID="gas_sensor_5"/>
+  <accelerometer rdf:ID="accelerometer_1"/>
+  <sbg_GPRS_sensor rdf:ID="sbg_GPRS_sensor_9"/>
+  <region rdf:ID="petrodvortsovy"/>
+  <sgb_lid_sensor rdf:ID="sgb_lid_sensor_3"/>
+  <sgb_lid rdf:ID="sgb_lid_6"/>
+  <gas_sensor rdf:ID="gas_sensor_3"/>
+  <sgb_sensor rdf:ID="sgb_sensor_2"/>
+  <truck rdf:ID="truck_5"/>
+  <sgb_lid rdf:ID="sgb_lid_8"/>
+  <sgb_sensor rdf:ID="sgb_sensor_8"/>
+  <scales_sensor rdf:ID="scales_sensor_6"/>
+  <battery_charge_sensor rdf:ID="battery_charge_sensor_4"/>
+  <sgb_sensor rdf:ID="sgb_sensor_5"/>
+  <sgb_lid_sensor rdf:ID="sgb_lid_sensor_2"/>
+  <sbg_GPRS_sensor rdf:ID="sbg_GPRS_sensor_5"/>
+  <temperature_sensor rdf:ID="temperature_sensor_2"/>
+  <waste_management_operator rdf:ID="waste_management_operator_3"/>
+  <container_scales_sensor rdf:ID="container_scales_sensor_5"/>
+  <fullness_sensor rdf:ID="fullness_sensor_8"/>
+  <gas_sensor rdf:ID="gas_sensor_8"/>
+  <waste_dump rdf:ID="waste_dump_5"/>
+  <truck rdf:ID="truck_4"/>
+  <sgb_lid rdf:ID="sgb_lid_2"/>
+  <sgb_sensor rdf:ID="sgb_sensor_4"/>
+  <smart_garbage_bin rdf:ID="smart_garbage_bin_9"/>
+  <region rdf:ID="vasileostrovsky"/>
+  <battery_charge_sensor rdf:ID="battery_charge_sensor_7"/>
+  <route rdf:ID="route_5"/>
+  <truck_sensor rdf:ID="truck_sensor_2"/>
+  <container_volume_sensor rdf:ID="container_volume_sensor_2"/>
+  <container_volume_sensor rdf:ID="container_volume_sensor_5"/>
+  <battery_charge_sensor rdf:ID="battery_charge_sensor_2"/>
+  <temperature_sensor rdf:ID="temperature_sensor_7"/>
+  <waste_dump rdf:ID="waste_dump_1"/>
+  <truck_GPRS_sensor rdf:ID="truck_GPRS_sensor_5"/>
+  <gas_sensor rdf:ID="gas_sensor_7"/>
+  <fullness_sensor rdf:ID="fullness_sensor_9"/>
+  <sgb_sensor rdf:ID="sgb_sensor_7"/>
+  <fullness_sensor rdf:ID="fullness_sensor_2"/>
+  <waste_dump rdf:ID="waste_dump_2"/>
+  <truck_sensor rdf:ID="truck_sensor_4"/>
+  <swrl:Imp rdf:ID="Rule-1">
+    <swrl:body>
+      <swrl:AtomList>
+        <rdf:rest>
+          <swrl:AtomList>
+            <rdf:rest>
+              <swrl:AtomList>
+                <rdf:rest>
+                  <swrl:AtomList>
+                    <rdf:first>
+                      <swrl:IndividualPropertyAtom>
+                        <swrl:argument2 rdf:resource="#s"/>
+                        <swrl:propertyPredicate rdf:resource="#is_part_of_sgb"/>
+                        <swrl:argument1>
+                          <swrl:Variable rdf:ID="l"/>
+                        </swrl:argument1>
+                      </swrl:IndividualPropertyAtom>
+                    </rdf:first>
+                    <rdf:rest>
+                      <swrl:AtomList>
+                        <rdf:first>
+                          <swrl:IndividualPropertyAtom>
+                            <swrl:argument2 rdf:resource="#s"/>
+                            <swrl:propertyPredicate rdf:resource="#is_part_of_sgb"/>
+                            <swrl:argument1>
+                              <swrl:Variable rdf:ID="c"/>
+                            </swrl:argument1>
+                          </swrl:IndividualPropertyAtom>
+                        </rdf:first>
+                        <rdf:rest>
+                          <swrl:AtomList>
+                            <rdf:first>
+                              <swrl:DatavaluedPropertyAtom>
+                                <swrl:argument1 rdf:resource="#l"/>
+                                <swrl:propertyPredicate rdf:resource="#isOpen"/>
+                                <swrl:argument2 rdf:datatype=
+                                "http://www.w3.org/2001/XMLSchema#long"
+                                >1</swrl:argument2>
+                              </swrl:DatavaluedPropertyAtom>
+                            </rdf:first>
+                            <rdf:rest>
+                              <swrl:AtomList>
+                                <rdf:rest>
+                                  <swrl:AtomList>
+                                    <rdf:first>
+                                      <swrl:DatavaluedPropertyAtom>
+                                        <swrl:argument1 rdf:resource="#c"/>
+                                        <swrl:argument2 rdf:datatype=
+                                        "http://www.w3.org/2001/XMLSchema#long"
+                                        >0</swrl:argument2>
+                                        <swrl:propertyPredicate rdf:resource="#hasFullness"/>
+                                      </swrl:DatavaluedPropertyAtom>
+                                    </rdf:first>
+                                    <rdf:rest>
+                                      <swrl:AtomList>
+                                        <rdf:first>
+                                          <swrl:DatavaluedPropertyAtom>
+                                            <swrl:propertyPredicate rdf:resource="#hasCoordinates"/>
+                                            <swrl:argument2>
+                                              <swrl:Variable rdf:ID="s_coord"/>
+                                            </swrl:argument2>
+                                            <swrl:argument1 rdf:resource="#s"/>
+                                          </swrl:DatavaluedPropertyAtom>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                          <swrl:AtomList>
+                                            <rdf:rest>
+                                              <swrl:AtomList>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                <rdf:first>
+                                                  <swrl:BuiltinAtom>
+                                                    <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#notEqual"/>
+                                                    <swrl:arguments>
+                                                      <rdf:List>
+                                                        <rdf:rest>
+                                                          <rdf:List>
+                                                            <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            <rdf:first rdf:resource="#s_coord"/>
+                                                          </rdf:List>
+                                                        </rdf:rest>
+                                                        <rdf:first>
+                                                          <swrl:Variable rdf:ID="c_coord"/>
+                                                        </rdf:first>
+                                                      </rdf:List>
+                                                    </swrl:arguments>
+                                                  </swrl:BuiltinAtom>
+                                                </rdf:first>
+                                              </swrl:AtomList>
+                                            </rdf:rest>
+                                            <rdf:first>
+                                              <swrl:DatavaluedPropertyAtom>
+                                                <swrl:argument1 rdf:resource="#c"/>
+                                                <swrl:propertyPredicate rdf:resource="#hasCoordinates"/>
+                                                <swrl:argument2 rdf:resource="#c_coord"/>
+                                              </swrl:DatavaluedPropertyAtom>
+                                            </rdf:first>
+                                          </swrl:AtomList>
+                                        </rdf:rest>
+                                      </swrl:AtomList>
+                                    </rdf:rest>
+                                  </swrl:AtomList>
+                                </rdf:rest>
+                                <rdf:first>
+                                  <swrl:DatavaluedPropertyAtom>
+                                    <swrl:propertyPredicate rdf:resource="#hasVolume"/>
+                                    <swrl:argument1 rdf:resource="#c"/>
+                                    <swrl:argument2 rdf:datatype=
+                                    "http://www.w3.org/2001/XMLSchema#long"
+                                    >0</swrl:argument2>
+                                  </swrl:DatavaluedPropertyAtom>
+                                </rdf:first>
+                              </swrl:AtomList>
+                            </rdf:rest>
+                          </swrl:AtomList>
+                        </rdf:rest>
+                      </swrl:AtomList>
+                    </rdf:rest>
+                  </swrl:AtomList>
+                </rdf:rest>
+                <rdf:first>
+                  <swrl:ClassAtom>
+                    <swrl:classPredicate rdf:resource="#sgb_lid"/>
+                    <swrl:argument1 rdf:resource="#l"/>
+                  </swrl:ClassAtom>
+                </rdf:first>
+              </swrl:AtomList>
+            </rdf:rest>
+            <rdf:first>
+              <swrl:ClassAtom>
+                <swrl:classPredicate rdf:resource="#sgb_container"/>
+                <swrl:argument1 rdf:resource="#c"/>
+              </swrl:ClassAtom>
+            </rdf:first>
+          </swrl:AtomList>
+        </rdf:rest>
+        <rdf:first>
+          <swrl:ClassAtom>
+            <swrl:classPredicate rdf:resource="#smart_garbage_bin"/>
+            <swrl:argument1 rdf:resource="#s"/>
+          </swrl:ClassAtom>
+        </rdf:first>
+      </swrl:AtomList>
+    </swrl:body>
+    <swrl:head>
+      <swrl:AtomList>
+        <rdf:first>
+          <swrl:DatavaluedPropertyAtom>
+            <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Missing sensor block</swrl:argument2>
+            <swrl:propertyPredicate rdf:resource="#hasState"/>
+            <swrl:argument1 rdf:resource="#s"/>
+          </swrl:DatavaluedPropertyAtom>
+        </rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </swrl:AtomList>
+    </swrl:head>
+  </swrl:Imp>
+  <scales_sensor rdf:ID="scales_sensor_7"/>
+  <sgb_lid_sensor rdf:ID="sgb_lid_sensor_6"/>
+  <truck_GPRS_sensor rdf:ID="truck_GPRS_sensor_1"/>
+  <fullness_sensor rdf:ID="fullness_sensor_7"/>
+  <temperature_sensor rdf:ID="temperature_sensor_3"/>
+  <sbg_GPRS_sensor rdf:ID="sbg_GPRS_sensor_2"/>
+  <truck rdf:ID="truck_3"/>
+  <waste_processing_company rdf:ID="waste_processing_company_4"/>
+  <truck_GPRS_sensor rdf:ID="truck_GPRS_sensor_4"/>
+  <waste_management_operator rdf:ID="waste_management_operator_1"/>
+  <truck_sensor rdf:ID="truck_sensor_1"/>
+  <sgb_lid rdf:ID="sgb_lid_5"/>
+  <container_scales_sensor rdf:ID="container_scales_sensor_1"/>
+  <smart_garbage_bin rdf:ID="smart_garbage_bin_1">
+    <hasState rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >100%</hasState>
+  </smart_garbage_bin>
+  <waste_processing_company rdf:ID="waste_processing_company_1"/>
+  <route rdf:ID="route_3"/>
+  <swrl:Imp rdf:ID="Rule-2">
+    <swrl:body>
+      <swrl:AtomList>
+        <rdf:rest>
+          <swrl:AtomList>
+            <rdf:first>
+              <swrl:DatavaluedPropertyAtom>
+                <swrl:propertyPredicate rdf:resource="#hasVolume"/>
+                <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+                >0</swrl:argument2>
+                <swrl:argument1 rdf:resource="#c"/>
+              </swrl:DatavaluedPropertyAtom>
+            </rdf:first>
+            <rdf:rest>
+              <swrl:AtomList>
+                <rdf:first>
+                  <swrl:DatavaluedPropertyAtom>
+                    <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+                    >100</swrl:argument2>
+                    <swrl:argument1 rdf:resource="#c"/>
+                    <swrl:propertyPredicate rdf:resource="#hasFullness"/>
+                  </swrl:DatavaluedPropertyAtom>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+              </swrl:AtomList>
+            </rdf:rest>
+          </swrl:AtomList>
+        </rdf:rest>
+        <rdf:first>
+          <swrl:ClassAtom>
+            <swrl:classPredicate rdf:resource="#smart_garbage_bin"/>
+            <swrl:argument1 rdf:resource="#s"/>
+          </swrl:ClassAtom>
+        </rdf:first>
+      </swrl:AtomList>
+    </swrl:body>
+    <swrl:head>
+      <swrl:AtomList>
+        <rdf:first>
+          <swrl:DatavaluedPropertyAtom>
+            <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Volume sensor failure </swrl:argument2>
+            <swrl:propertyPredicate rdf:resource="#hasState"/>
+            <swrl:argument1 rdf:resource="#s"/>
+          </swrl:DatavaluedPropertyAtom>
+        </rdf:first>
+        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+      </swrl:AtomList>
+    </swrl:head>
+  </swrl:Imp>
+  <accelerometer rdf:ID="accelerometer_3"/>
+  <scales_sensor rdf:ID="scales_sensor_3"/>
+  <sgb_lid_sensor rdf:ID="sgb_lid_sensor_4"/>
+  <swrl:AtomList/>
+  <sgb_sensor rdf:ID="sgb_sensor_1"/>
+  <battery_charge_sensor rdf:ID="battery_charge_sensor_1"/>
+  <region rdf:ID="admiralteysky"/>
+  <CAN_bus rdf:ID="CAN_bus_4"/>
+  <fullness_sensor rdf:ID="fullness_sensor_5"/>
+  <waste_processing_company rdf:ID="waste_processing_company_2"/>
+  <battery_charge_sensor rdf:ID="battery_charge_sensor_9"/>
+  <container_volume_sensor rdf:ID="container_volume_sensor_4"/>
+  <container_scales_sensor rdf:ID="container_scales_sensor_2"/>
+  <sgb_lid rdf:ID="sgb_lid_9"/>
+  <temperature_sensor rdf:ID="temperature_sensor_9"/>
+  <sgb_sensor rdf:ID="sgb_sensor_3"/>
+  <sbg_GPRS_sensor rdf:ID="sbg_GPRS_sensor_6"/>
+  <waste_processing_company rdf:ID="waste_processing_company_3"/>
+  <scales_sensor rdf:ID="scales_sensor_4"/>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.4.8, Build 629)  http://protege.stanford.edu -->
