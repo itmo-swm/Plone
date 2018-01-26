@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1516968495844" name="http://schema.mobivoc.org/" uri="mobiVoc.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1516968495844" name="duplicate:http://sdn.ifmo.ru/waste-management-system/swm-ontology/" uri="bIoTopeOntology-v.5.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1516968495844" name="duplicate:http://sdn.ifmo.ru/waste-management-system/swm-ontology/" uri="bIoTopeOntology-v.6.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1516968495844" name="duplicate:http://www.semanticweb.org/inna/ontologies/2018/0/untitled-ontology-13" uri="bIoTopeOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1516968495844" name="duplicate:http://www.semanticweb.org/inna/ontologies/2018/0/untitled-ontology-13" uri="bIoTope_Ontology-v.3.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1516968495844" name="duplicate:http://www.semanticweb.org/inna/ontologies/2018/0/untitled-ontology-13" uri="bIoTope_Ontology-v.4.owl"/>
+    </group>
+</catalog>
